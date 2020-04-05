@@ -1,0 +1,2677 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://linux-sunxi.org/FEL
+Subject: FEL - linux-sunxi.org
+Date: Fri, 27 Mar 2020 16:24:50 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----"
+
+
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/html
+Content-ID: <frame-A47AEB0955BB5B4AE4D20D7124FD5539@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://linux-sunxi.org/FEL
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr" class=3D"client-js"><head><met=
+a http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-784d4c86-2d88-422b-81e=
+9-e5f4a7cb2628@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-67c2e89a-ccd8-4cbd-ab07-3402a86e0569@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5c1bb84e-7c7e-477a-aa40-4=
+43b7dce6e48@mhtml.blink" />
+<title>FEL - linux-sunxi.org</title>
+
+<meta name=3D"generator" content=3D"MediaWiki 1.20.8">
+<link rel=3D"shortcut icon" href=3D"http://linux-sunxi.org/favicon.ico">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"http://linux-sunxi.org/opensearch_desc.php" title=3D"linux-sunxi.org (en)"=
+>
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"http://linux-sun=
+xi.org/api.php?action=3Drsd">
+<link rel=3D"copyright" href=3D"https://creativecommons.org/licenses/by/3.0=
+/">
+<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"linux-sunxi.=
+org Atom feed" href=3D"http://linux-sunxi.org/index.php?title=3DSpecial:Rec=
+entChanges&amp;feed=3Datom">
+<link rel=3D"stylesheet" href=3D"http://linux-sunxi.org/load.php?debug=3Dfa=
+lse&amp;lang=3Den&amp;modules=3Dmediawiki.legacy.commonPrint%2Cshared%7Cski=
+ns.vector&amp;only=3Dstyles&amp;skin=3Dvector&amp;*">
+<meta name=3D"ResourceLoaderDynamicStyles" content=3D"">
+<link rel=3D"stylesheet" href=3D"http://linux-sunxi.org/load.php?debug=3Dfa=
+lse&amp;lang=3Den&amp;modules=3Dsite&amp;only=3Dstyles&amp;skin=3Dvector&am=
+p;*">
+
+
+
+
+
+<link rel=3D"canonical" href=3D"https://linux-sunxi.org/FEL">
+<!--[if lt IE 7]><style type=3D"text/css">body{behavior:url("/skins/vector/=
+csshover.min.htc")}</style><![endif]--></head>
+<body class=3D"mediawiki ltr sitedir-ltr ns-0 ns-subject page-FEL skin-vect=
+or action-view vector-animateLayout">
+		<div id=3D"mw-page-base" class=3D"noprint"></div>
+		<div id=3D"mw-head-base" class=3D"noprint"></div>
+		<!-- content -->
+		<div id=3D"content" class=3D"mw-body">
+			<a id=3D"top"></a>
+			<div id=3D"mw-js-message" style=3D"display:none;"></div>
+						<!-- firstHeading -->
+			<h1 id=3D"firstHeading" class=3D"firstHeading"><span dir=3D"auto">FEL</s=
+pan></h1>
+			<!-- /firstHeading -->
+			<!-- bodyContent -->
+			<div id=3D"bodyContent">
+								<!-- tagline -->
+				<div id=3D"siteSub">From linux-sunxi.org</div>
+				<!-- /tagline -->
+								<!-- subtitle -->
+				<div id=3D"contentSub"></div>
+				<!-- /subtitle -->
+																<!-- jumpto -->
+				<div id=3D"jump-to-nav" class=3D"mw-jump">
+					Jump to:					<a href=3D"http://linux-sunxi.org/FEL#mw-head">navigation=
+</a>, 					<a href=3D"http://linux-sunxi.org/FEL#p-search">search</a>
+				</div>
+				<!-- /jumpto -->
+								<!-- bodycontent -->
+				<div id=3D"mw-content-text" lang=3D"en" dir=3D"ltr" class=3D"mw-content=
+-ltr"><p>FEL is a low-level subroutine contained in the <a href=3D"http://l=
+inux-sunxi.org/BROM" title=3D"BROM">BootROM</a> on Allwinner devices. It is=
+ used for initial programming and recovery of devices using USB.
+</p><p><a href=3D"http://linux-sunxi.org/File:Sticky-note-pin.png" class=3D=
+"image"><img alt=3D"Sticky-note-pin.png" src=3D"http://linux-sunxi.org/imag=
+es/f/f0/Sticky-note-pin.png" width=3D"16" height=3D"16"></a> Your device th=
+erefore needs to be attached to a host (your PC) by means of a <b>USB cable=
+</b>, connected to a port where the sunxi device will present itself as a U=
+SB 'slave' (i.e. in device mode). Usually that means the "OTG" connector.<s=
+up id=3D"cite_ref-1" class=3D"reference"><a href=3D"http://linux-sunxi.org/=
+FEL#cite_note-1">[1]</a></sup>=20
+</p>
+<table id=3D"toc" class=3D"toc"><tbody><tr><td><div id=3D"toctitle"><h2>Con=
+tents</h2><span class=3D"toctoggle">&nbsp;[<a href=3D"http://linux-sunxi.or=
+g/FEL#" class=3D"internal" id=3D"togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class=3D"toclevel-1 tocsection-1"><a href=3D"http://linux-sunxi.org/FEL=
+#Tools_for_talking_FEL_mode"><span class=3D"tocnumber">1</span> <span class=
+=3D"toctext">Tools for talking FEL mode</span></a></li>
+<li class=3D"toclevel-1 tocsection-2"><a href=3D"http://linux-sunxi.org/FEL=
+#Entering_FEL_mode"><span class=3D"tocnumber">2</span> <span class=3D"tocte=
+xt">Entering FEL mode</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-3"><a href=3D"http://linux-sunxi.org/FEL=
+#Power_off_your_device"><span class=3D"tocnumber">2.1</span> <span class=3D=
+"toctext">Power off your device</span></a></li>
+<li class=3D"toclevel-2 tocsection-4"><a href=3D"http://linux-sunxi.org/FEL=
+#Triggering_FEL_mode"><span class=3D"tocnumber">2.2</span> <span class=3D"t=
+octext">Triggering FEL mode</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-5"><a href=3D"http://linux-sunxi.org/FEL=
+#Through_a_special_FEL_button"><span class=3D"tocnumber">2.2.1</span> <span=
+ class=3D"toctext">Through a special FEL button</span></a></li>
+<li class=3D"toclevel-3 tocsection-6"><a href=3D"http://linux-sunxi.org/FEL=
+#By_holding_a_standard_button"><span class=3D"tocnumber">2.2.2</span> <span=
+ class=3D"toctext">By holding a standard button</span></a></li>
+<li class=3D"toclevel-3 tocsection-7"><a href=3D"http://linux-sunxi.org/FEL=
+#Through_serial_console"><span class=3D"tocnumber">2.2.3</span> <span class=
+=3D"toctext">Through serial console</span></a></li>
+<li class=3D"toclevel-3 tocsection-8"><a href=3D"http://linux-sunxi.org/FEL=
+#Through_a_special_SD_card_image"><span class=3D"tocnumber">2.2.4</span> <s=
+pan class=3D"toctext">Through a special SD card image</span></a></li>
+<li class=3D"toclevel-3 tocsection-9"><a href=3D"http://linux-sunxi.org/FEL=
+#By_having_no_valid_boot_image"><span class=3D"tocnumber">2.2.5</span> <spa=
+n class=3D"toctext">By having no valid boot image</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-2 tocsection-10"><a href=3D"http://linux-sunxi.org/FE=
+L#Verifying_FEL_mode"><span class=3D"tocnumber">2.3</span> <span class=3D"t=
+octext">Verifying FEL mode</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-11"><a href=3D"http://linux-sunxi.org/FE=
+L#A_new_USB_device_appears"><span class=3D"tocnumber">2.3.1</span> <span cl=
+ass=3D"toctext">A new USB device appears</span></a></li>
+<li class=3D"toclevel-3 tocsection-12"><a href=3D"http://linux-sunxi.org/FE=
+L#Running_the_sunxi-fel_tool"><span class=3D"tocnumber">2.3.2</span> <span =
+class=3D"toctext">Running the sunxi-fel tool</span></a></li>
+<li class=3D"toclevel-3 tocsection-13"><a href=3D"http://linux-sunxi.org/FE=
+L#Serial_output"><span class=3D"tocnumber">2.3.3</span> <span class=3D"toct=
+ext">Serial output</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-2 tocsection-14"><a href=3D"http://linux-sunxi.org/FE=
+L#Common_Pitfalls"><span class=3D"tocnumber">2.4</span> <span class=3D"toct=
+ext">Common Pitfalls</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-15"><a href=3D"http://linux-sunxi.org/FE=
+L#It_failed.21"><span class=3D"tocnumber">2.4.1</span> <span class=3D"tocte=
+xt">It failed!</span></a></li>
+<li class=3D"toclevel-3 tocsection-16"><a href=3D"http://linux-sunxi.org/FE=
+L#Reading_over_USB_fails"><span class=3D"tocnumber">2.4.2</span> <span clas=
+s=3D"toctext">Reading over USB fails</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-17"><a href=3D"http://linux-sunxi.org/FE=
+L#FEL_Protocol"><span class=3D"tocnumber">3</span> <span class=3D"toctext">=
+FEL Protocol</span></a></li>
+<li class=3D"toclevel-1 tocsection-18"><a href=3D"http://linux-sunxi.org/FE=
+L#Tips_and_tricks"><span class=3D"tocnumber">4</span> <span class=3D"toctex=
+t">Tips and tricks</span></a></li>
+<li class=3D"toclevel-1 tocsection-19"><a href=3D"http://linux-sunxi.org/FE=
+L#See_also"><span class=3D"tocnumber">5</span> <span class=3D"toctext">See =
+also</span></a></li>
+<li class=3D"toclevel-1 tocsection-20"><a href=3D"http://linux-sunxi.org/FE=
+L#References"><span class=3D"tocnumber">6</span> <span class=3D"toctext">Re=
+ferences</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<h1> <span class=3D"mw-headline" id=3D"Tools_for_talking_FEL_mode"> Tools f=
+or talking FEL mode </span></h1>
+<p>Our <a href=3D"http://linux-sunxi.org/Sunxi-tools" title=3D"Sunxi-tools"=
+>tools</a> repository has some tools for dealing with FEL mode. If you have=
+n't done so already, <a href=3D"http://linux-sunxi.org/Sunxi-tools#Building=
+" title=3D"Sunxi-tools">retrieve the repository and build it</a>.
+</p>
+<h1> <span class=3D"mw-headline" id=3D"Entering_FEL_mode"> Entering FEL mod=
+e </span></h1>
+<p>While there are a few different ways to trigger FEL mode, they are not a=
+lways equal. Some do low-level initialization (load Boot0 and Boot1), and s=
+ome don't.
+</p><p>If you are going to use FEL mode to retrieve device information, you=
+ need a to pick a method of entering FEL mode that initializes Boot1.
+</p>
+<h2> <span class=3D"mw-headline" id=3D"Power_off_your_device"> Power off yo=
+ur device </span></h2>
+<p>Before you try to enter FEL mode, make sure that your device is <b>truly=
+ powered off</b>. Do not leave any cables attached.
+</p><p><a href=3D"http://linux-sunxi.org/File:Exclamation.png" class=3D"ima=
+ge"><img alt=3D"Exclamation.png" src=3D"http://linux-sunxi.org/images/c/c0/=
+Exclamation.png" width=3D"16" height=3D"16"></a>  Due to a common design fl=
+aw, <a href=3D"http://linux-sunxi.org/UART#Board_won.27t_shut_down_complete=
+ly" title=3D"UART">(current leaking from) the UART</a> will often keep the =
+device in a slightly working state. So before you power up your device agai=
+n: disconnect your UART, and re-attach it.
+</p>
+<h2> <span class=3D"mw-headline" id=3D"Triggering_FEL_mode"> Triggering FEL=
+ mode </span></h2>
+<h3> <span class=3D"mw-headline" id=3D"Through_a_special_FEL_button"> Throu=
+gh a special FEL button </span></h3>
+<p>This is either called <b>recovery</b> or <b>uboot</b> or <b>fel</b>. If =
+your device features such a button, you just need to hold it during power-u=
+p, and the device should have entered FEL mode just fine.
+</p>
+<h3> <span class=3D"mw-headline" id=3D"By_holding_a_standard_button"> By ho=
+lding a standard button </span></h3>
+<p>This is usually one of the standard tablet buttons, like the <b>VOL+</b>=
+ key or something.
+</p><p>The following seems to work:
+</p>
+<ul><li> Press and hold the suspected or reported FEL key.
+</li><li> Press and hold the power key for about 2 seconds.
+</li><li> Release the power key, and press it at least 3 times immediately.
+</li></ul>
+<p>Boot1 is initialized using this method.
+</p>
+<h3> <span class=3D"mw-headline" id=3D"Through_serial_console"> Through ser=
+ial console </span></h3>
+<p>If you have access to the <a href=3D"http://linux-sunxi.org/UART" title=
+=3D"UART">UART</a> already, you can send the character '1' ('2' on some dev=
+ices) to the device during power-up.
+</p><p>Boot1 is initialized using this method.
+</p><p>With later SoCs, Allwinner's U-boot supports the "efex" command.
+</p><p>If "efex" is not available in your U-boot, you can use the simple ub=
+oot "go" command with arguments pointing to the return FEL address:<br>
+<a rel=3D"nofollow" class=3D"external free" href=3D"https://linux-sunxi.org=
+/BROM#Other_booting_methods">http://linux-sunxi.org/BROM#Other_booting_meth=
+ods</a><br>
+=3D&gt; go 0xffff0020                                                      =
+         =20
+<br>Starting application at 0xFFFF0020 ...                                 =
+     =20
+</p><p><br>
+Entering this command at the u-boot prompt will enter into FEL mode.
+</p><p><a href=3D"http://linux-sunxi.org/File:Sticky-note-pin.png" class=3D=
+"image"><img alt=3D"Sticky-note-pin.png" src=3D"http://linux-sunxi.org/imag=
+es/f/f0/Sticky-note-pin.png" width=3D"16" height=3D"16"></a> <i>Note:</i> T=
+his is just an <i>alternative way of entering FEL mode</i>. FEL itself can/=
+will <u>not</u> talk over the serial connection! In other words: You still =
+have to connect a USB cable to make actual use of FEL and associated tools.
+</p>
+<h3> <span class=3D"mw-headline" id=3D"Through_a_special_SD_card_image"> Th=
+rough a special SD card image </span></h3>
+<p>Included in our <a href=3D"http://linux-sunxi.org/Sunxi-tools" title=3D"=
+Sunxi-tools">sunxi-tools repository</a>, there is a small SDCARD boot image=
+ that does nothing more than jump to FEL.
+</p><p>Just install it on an sdcard as you would with the u-boot SPL (<b>be=
+ sure to change <code>/dev/sdX</code> to where your sdcard is</b>):
+</p>
+<pre>wget https://github.com/linux-sunxi/sunxi-tools/raw/master/bin/fel-sdb=
+oot.sunxi
+dd if=3Dfel-sdboot.sunxi of=3D/dev/sdX bs=3D1024 seek=3D8
+</pre>
+<h3> <span class=3D"mw-headline" id=3D"By_having_no_valid_boot_image"> By h=
+aving no valid boot image </span></h3>
+<p>If the <a href=3D"http://linux-sunxi.org/BROM" title=3D"BROM">BROM</a> d=
+oesn't find any valid boot image, it will automatically enter FEL mode.
+</p><p>Thus for most devices that don't feature onboard NAND or eMMC, this =
+should apply when you simply remove the SD/=C2=B5SD card.
+</p>
+<h2> <span class=3D"mw-headline" id=3D"Verifying_FEL_mode"> Verifying FEL m=
+ode </span></h2>
+<h3> <span class=3D"mw-headline" id=3D"A_new_USB_device_appears"> A new USB=
+ device appears </span></h3>
+<p>When you run lsusb, you should see the following in it:
+</p>
+<pre>Bus 001 Device 074: ID 1f3a:efe8</pre>
+<h3> <span class=3D"mw-headline" id=3D"Running_the_sunxi-fel_tool"> Running=
+ the sunxi-fel tool </span></h3>
+<pre>&gt; ./sunxi-fel version
+AWUSBFEX soc=3D00162500(A13) 00000001 ver=3D0001 44 08 scratchpad=3D00007e0=
+0 00000000 00000000</pre>
+<h3> <span class=3D"mw-headline" id=3D"Serial_output"> Serial output </span=
+></h3>
+<p>If the method you chose initialized boot1, then you should see something=
+ like this over serial:
+</p>
+<pre>HELLO! BOOT0 is starting!
+boot0 version&nbsp;: .3.0
+dram size =3D1024
+Succeed in opening nand flash.
+Succeed in reading Boot1 file head.
+The size of Boot1 is 0x00036000.
+The file stored in 0X00000000 of block 2 is perfect.
+Check is correct.
+Ready to disable icache.
+Succeed in loading Boot1.
+Jump to Boot1.
+[       0.145] boot1 version&nbsp;: 1.3.1a
+[       0.145] pmu type =3D 3
+[       0.145] bat vol =3D 4117
+[       0.176] axi:ahb:apb=3D3:2:2
+[       0.176] set dcdc2=3D1400, clock=3D1008 successed
+[       0.178] key
+[       2.486] you can unclench the key to update now
+[       2.486] key found, jump to fel</pre>
+<h2> <span class=3D"mw-headline" id=3D"Common_Pitfalls"> Common Pitfalls </=
+span></h2>
+<h3> <span class=3D"mw-headline" id=3D"It_failed.21"> It failed! </span></h=
+3>
+<p>Try again, make sure you fully power down the device and make sure you g=
+et the order of events right. You'll get there.
+</p>
+<h3> <span class=3D"mw-headline" id=3D"Reading_over_USB_fails"> Reading ove=
+r USB fails </span></h3>
+<p>If the following happens:
+</p>
+<pre>&gt; ./sunxi-fel read 0x43000000 0x20000 script.bin
+libusb usb_bulk_send error -7</pre>
+<p>Then you probably are trying to read things that only get initialized wh=
+en boot0 and boot1 have been loaded. Try another method of entering FEL mod=
+e, one that does initialize to boot1.
+</p>
+<h1> <span class=3D"mw-headline" id=3D"FEL_Protocol"> FEL Protocol </span><=
+/h1>
+<p>The FEL is actually a tiny usb stack implementing <a href=3D"http://linu=
+x-sunxi.org/FEL/Protocol" title=3D"FEL/Protocol">a special USB protocol</a>=
+.
+</p><p>Part of it is implemented in our <a class=3D"external text" href=3D"=
+https://github.com/linux-sunxi/sunxi-tools/blob/master/fel_lib.c">tools rep=
+ository</a> and can be used as reference code.
+</p>
+<h1> <span class=3D"mw-headline" id=3D"Tips_and_tricks"> Tips and tricks </=
+span></h1>
+<ul><li> if you get usb_bulk_send error -7 after some command it means soc/=
+fel stack left fel mode or crashed. you either booted something or hung the=
+ device
+</li><li> you can reset via fel by enabling watchdog: ./sunxi-fel writel 0x=
+01c20c94 3
+</li><li> Or, if in u-boot, use: mw 0x01c20c94 3&nbsp;;&nbsp;;&nbsp;;&nbsp;=
+;
+</li></ul>
+<p>This will go back to FEL mode regardless if the device's FEL mode jumper=
+/button is in place. Note that a couple of blank lines are needed after the=
+ mw for some reason.
+</p>
+<h1> <span class=3D"mw-headline" id=3D"See_also"> See also </span></h1>
+<ul><li> <a href=3D"http://linux-sunxi.org/FEL/USBBoot" title=3D"FEL/USBBoo=
+t"> Booting using FEL</a>
+</li></ul>
+<h1> <span class=3D"mw-headline" id=3D"References"> References </span></h1>
+<ol class=3D"references"><li id=3D"cite_note-1"><span class=3D"mw-cite-back=
+link"><a href=3D"http://linux-sunxi.org/FEL#cite_ref-1">=E2=86=91</a></span=
+> <span class=3D"reference-text">
+There are exceptions to this rule, where boards might require you to connec=
+t to specific ports and/or use non-standard cables. Most notably is the <a =
+href=3D"http://linux-sunxi.org/Pine64#FEL_mode" title=3D"Pine64">Pine64</a>=
+.</span>
+</li></ol>
+
+<!-- Tidy found serious XHTML errors -->
+
+<!--=20
+NewPP limit report
+Preprocessor visited node count: 170/1000000
+Preprocessor generated node count: 380/1000000
+Post=E2=80=90expand include size: 836/2097152 bytes
+Template argument size: 741/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key sunxi-mw:pcache:idhash:131-0!*!0!!en!2!=
+* and timestamp 20200327145058 -->
+</div>				<!-- /bodycontent -->
+								<!-- printfooter -->
+				<div class=3D"printfooter">
+				Retrieved from "<a href=3D"https://linux-sunxi.org/index.php?title=3DFE=
+L&amp;oldid=3D23109">http://linux-sunxi.org/index.php?title=3DFEL&amp;oldid=
+=3D23109</a>"				</div>
+				<!-- /printfooter -->
+												<!-- catlinks -->
+				<div id=3D"catlinks" class=3D"catlinks"><div id=3D"mw-normal-catlinks" =
+class=3D"mw-normal-catlinks"><a href=3D"http://linux-sunxi.org/Special:Cate=
+gories" title=3D"Special:Categories">Categories</a>: <ul><li><a href=3D"htt=
+p://linux-sunxi.org/Category:USB_OTG" title=3D"Category:USB OTG">USB OTG</a=
+></li><li><a href=3D"http://linux-sunxi.org/Category:Boot" title=3D"Categor=
+y:Boot">Boot</a></li><li><a href=3D"http://linux-sunxi.org/Category:Softwar=
+e" title=3D"Category:Software">Software</a></li></ul></div></div>				<!-- /=
+catlinks -->
+												<div class=3D"visualClear"></div>
+				<!-- debughtml -->
+								<!-- /debughtml -->
+			</div>
+			<!-- /bodyContent -->
+		</div>
+		<!-- /content -->
+		<!-- header -->
+		<div id=3D"mw-head" class=3D"noprint">
+		=09
+<!-- 0 -->
+<div id=3D"p-personal" class=3D"">
+	<h5>Personal tools</h5>
+	<ul>
+		<li id=3D"pt-createaccount"><a href=3D"http://linux-sunxi.org/index.php?t=
+itle=3DSpecial:UserLogin&amp;returnto=3DFEL&amp;type=3Dsignup">Create accou=
+nt</a></li>
+		<li id=3D"pt-login"><a href=3D"http://linux-sunxi.org/index.php?title=3DS=
+pecial:UserLogin&amp;returnto=3DFEL" title=3D"You are encouraged to log in;=
+ however, it is not mandatory [alt-shift-o]" accesskey=3D"o">Log in</a></li=
+>
+	</ul>
+</div>
+
+<!-- /0 -->
+			<div id=3D"left-navigation">
+			=09
+<!-- 0 -->
+<div id=3D"p-namespaces" class=3D"vectorTabs">
+	<h5>Namespaces</h5>
+	<ul>
+					<li id=3D"ca-nstab-main" class=3D"selected"><span><a href=3D"http://li=
+nux-sunxi.org/FEL" title=3D"View the content page [alt-shift-c]" accesskey=
+=3D"c">Page</a></span></li>
+					<li id=3D"ca-talk" class=3D"new"><span><a href=3D"http://linux-sunxi.o=
+rg/index.php?title=3DTalk:FEL&amp;action=3Dedit&amp;redlink=3D1" title=3D"D=
+iscussion about the content page [alt-shift-t]" accesskey=3D"t">Discussion<=
+/a></span></li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id=3D"p-variants" class=3D"vectorMenu emptyPortlet">
+	<h4>
+		</h4>
+	<h5><span>Variants</span><a href=3D"http://linux-sunxi.org/FEL#"></a></h5>
+	<div class=3D"menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+			</div>
+			<div id=3D"right-navigation">
+			=09
+<!-- 0 -->
+<div id=3D"p-views" class=3D"vectorTabs">
+	<h5>Views</h5>
+	<ul>
+					<li id=3D"ca-view" class=3D"selected"><span><a href=3D"http://linux-su=
+nxi.org/FEL">Read</a></span></li>
+					<li id=3D"ca-viewsource"><span><a href=3D"http://linux-sunxi.org/index=
+.php?title=3DFEL&amp;action=3Dedit" title=3D"This page is protected.
+You can view its source [alt-shift-e]" accesskey=3D"e">View source</a></spa=
+n></li>
+					<li id=3D"ca-history" class=3D"collapsible"><span><a href=3D"http://li=
+nux-sunxi.org/index.php?title=3DFEL&amp;action=3Dhistory" title=3D"Past rev=
+isions of this page [alt-shift-h]" accesskey=3D"h">View history</a></span><=
+/li>
+			</ul>
+</div>
+
+<!-- /0 -->
+
+<!-- 1 -->
+<div id=3D"p-cactions" class=3D"vectorMenu emptyPortlet">
+	<h5><span>Actions</span><a href=3D"http://linux-sunxi.org/FEL#"></a></h5>
+	<div class=3D"menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+
+<!-- /1 -->
+
+<!-- 2 -->
+<div id=3D"p-search">
+	<h5><label for=3D"searchInput">Search</label></h5>
+	<form action=3D"http://linux-sunxi.org/index.php" id=3D"searchform">
+				<div>
+			<input type=3D"search" name=3D"search" title=3D"Search linux-sunxi.org [=
+alt-shift-f]" accesskey=3D"f" id=3D"searchInput" autocomplete=3D"off" place=
+holder=3D"Search">			<input type=3D"submit" name=3D"go" value=3D"Go" title=
+=3D"Go to a page with this exact name if exists" id=3D"searchGoButton" clas=
+s=3D"searchButton">			<input type=3D"submit" name=3D"fulltext" value=3D"Sea=
+rch" title=3D"Search the pages for this text" id=3D"mw-searchButton" class=
+=3D"searchButton">				=09
+		</div>
+	</form>
+</div>
+
+<!-- /2 -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- panel -->
+			<div id=3D"mw-panel" class=3D"noprint">
+				<!-- logo -->
+					<div id=3D"p-logo"><a style=3D"background-image: url(//linux-sunxi.org=
+/images/c/c5/Logo-155x155.png);" href=3D"http://linux-sunxi.org/Main_Page" =
+title=3D"Visit the main page"></a></div>
+				<!-- /logo -->
+			=09
+<!-- navigation -->
+<div class=3D"portal" id=3D"p-navigation">
+	<h5>Navigation</h5>
+	<div class=3D"body">
+		<ul>
+			<li id=3D"n-mainpage-description"><a href=3D"http://linux-sunxi.org/Main=
+_Page" title=3D"Visit the main page [alt-shift-z]" accesskey=3D"z">Main pag=
+e</a></li>
+			<li id=3D"n-portal"><a href=3D"http://linux-sunxi.org/sunxi:Community_po=
+rtal" title=3D"About the project, what you can do, where to find things">Co=
+mmunity portal</a></li>
+			<li id=3D"n-recentchanges"><a href=3D"http://linux-sunxi.org/Special:Rec=
+entChanges" title=3D"A list of recent changes in the wiki [alt-shift-r]" ac=
+cesskey=3D"r">Recent changes</a></li>
+			<li id=3D"n-randompage"><a href=3D"http://linux-sunxi.org/Special:Random=
+" title=3D"Load a random page [alt-shift-x]" accesskey=3D"x">Random page</a=
+></li>
+			<li id=3D"n-help"><a href=3D"http://linux-sunxi.org/Help:Contents" title=
+=3D"The place to find out">Help</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /navigation -->
+
+<!-- SEARCH -->
+
+<!-- /SEARCH -->
+
+<!-- TOOLBOX -->
+<div class=3D"portal" id=3D"p-tb">
+	<h5>Tools</h5>
+	<div class=3D"body">
+		<ul>
+			<li id=3D"t-whatlinkshere"><a href=3D"http://linux-sunxi.org/Special:Wha=
+tLinksHere/FEL" title=3D"A list of all wiki pages that link here [alt-shift=
+-j]" accesskey=3D"j">What links here</a></li>
+			<li id=3D"t-recentchangeslinked"><a href=3D"http://linux-sunxi.org/Speci=
+al:RecentChangesLinked/FEL" title=3D"Recent changes in pages linked from th=
+is page [alt-shift-k]" accesskey=3D"k">Related changes</a></li>
+			<li id=3D"t-specialpages"><a href=3D"http://linux-sunxi.org/Special:Spec=
+ialPages" title=3D"A list of all special pages [alt-shift-q]" accesskey=3D"=
+q">Special pages</a></li>
+			<li id=3D"t-print"><a href=3D"http://linux-sunxi.org/index.php?title=3DF=
+EL&amp;printable=3Dyes" rel=3D"alternate" title=3D"Printable version of thi=
+s page [alt-shift-p]" accesskey=3D"p">Printable version</a></li>
+			<li id=3D"t-permalink"><a href=3D"http://linux-sunxi.org/index.php?title=
+=3DFEL&amp;oldid=3D23109" title=3D"Permanent link to this revision of the p=
+age">Permanent link</a></li>
+		</ul>
+	</div>
+</div>
+
+<!-- /TOOLBOX -->
+
+<!-- LANGUAGES -->
+
+<!-- /LANGUAGES -->
+			</div>
+		<!-- /panel -->
+		<!-- footer -->
+		<div id=3D"footer">
+							<ul id=3D"footer-info">
+											<li id=3D"footer-info-lastmod"> This page was last modified on 2=
+2 January 2020, at 04:26.</li>
+											<li id=3D"footer-info-viewcount">This page has been accessed 193=
+,649 times.</li>
+											<li id=3D"footer-info-copyright">Content is available under <a c=
+lass=3D"external" href=3D"https://creativecommons.org/licenses/by/3.0/">Cre=
+ative Commons Attribution</a> unless otherwise noted.</li>
+									</ul>
+							<ul id=3D"footer-places">
+											<li id=3D"footer-places-privacy"><a href=3D"http://linux-sunxi.o=
+rg/sunxi:Privacy_policy" title=3D"sunxi:Privacy policy">Privacy policy</a><=
+/li>
+											<li id=3D"footer-places-about"><a href=3D"http://linux-sunxi.org=
+/sunxi:About" title=3D"sunxi:About">About linux-sunxi.org</a></li>
+											<li id=3D"footer-places-disclaimer"><a href=3D"http://linux-sunx=
+i.org/sunxi:General_disclaimer" title=3D"sunxi:General disclaimer">Disclaim=
+ers</a></li>
+									</ul>
+										<ul id=3D"footer-icons" class=3D"noprint">
+					<li id=3D"footer-copyrightico">
+						<a href=3D"https://creativecommons.org/licenses/by/3.0/"><img src=3D"=
+http://linux-sunxi.org/skins/common/images/cc-by.png" alt=3D"Creative Commo=
+ns Attribution" width=3D"88" height=3D"31"></a>
+					</li>
+					<li id=3D"footer-poweredbyico">
+						<a href=3D"http://www.mediawiki.org/"><img src=3D"http://linux-sunxi.=
+org/skins/common/images/poweredby_mediawiki_88x31.png" alt=3D"Powered by Me=
+diaWiki" width=3D"88" height=3D"31"></a>
+					</li>
+				</ul>
+						<div style=3D"clear:both"></div>
+		</div>
+		<!-- /footer -->
+	=09
+
+
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"http://linux-sunxi.org/e=
+xtensions/SyntaxHighlighter/styles/shCore.css">
+<link rel=3D"stylesheet" type=3D"text/css" href=3D"http://linux-sunxi.org/e=
+xtensions/SyntaxHighlighter/styles/shThemeDefault.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Served in 0.090 secs. -->
+=09
+
+<div id=3D"tooltip" style=3D"display: none;"><h3></h3><div class=3D"body"><=
+/div><div class=3D"url"></div></div><div class=3D"suggestions" style=3D"dis=
+play: none; font-size: 14px;"><div class=3D"suggestions-results"></div><div=
+ class=3D"suggestions-special"></div></div></body></html>
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-784d4c86-2d88-422b-81e9-e5f4a7cb2628@mhtml.blink
+
+@charset "utf-8";
+
+.mw-collapsible-toggle { float: right; }
+
+li .mw-collapsible-toggle { float: none; }
+
+.mw-collapsible-toggle-li { list-style: none; }
+
+.suggestions { overflow: hidden; position: absolute; top: 0px; left: 0px; w=
+idth: 0px; border: none; z-index: 1099; padding: 0px; margin: -1px -1px 0px=
+ 0px; }
+
+html > body .suggestions { margin: -1px 0px 0px; }
+
+.suggestions-special { position: relative; background-color: white; cursor:=
+ pointer; border: 1px solid rgb(170, 170, 170); margin: -2px 0px 0px; displ=
+ay: none; padding: 0.25em; line-height: 1.25em; }
+
+.suggestions-results { background-color: white; cursor: pointer; border: 1p=
+x solid rgb(170, 170, 170); padding: 0px; margin: 0px; }
+
+.suggestions-result { color: black; margin: 0px; line-height: 1.5em; paddin=
+g: 0.01em 0.25em; text-align: left; }
+
+.suggestions-result-current { background-color: rgb(76, 89, 166); color: wh=
+ite; }
+
+.suggestions-special .special-label { color: gray; text-align: left; }
+
+.suggestions-special .special-query { color: black; font-style: italic; tex=
+t-align: left; }
+
+.suggestions-special .special-hover { background-color: silver; }
+
+.suggestions-result-current .special-label, .suggestions-result-current .sp=
+ecial-query { color: white; }
+
+.autoellipsis-matched, .highlight { font-weight: bold; }
+
+#tooltip { position: absolute; z-index: 3000; border: 1px solid rgb(17, 17,=
+ 17); background-color: rgb(238, 238, 238); padding: 5px; opacity: 0.85; }
+
+#tooltip h3, #tooltip div { margin: 0px; }
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-67c2e89a-ccd8-4cbd-ab07-3402a86e0569@mhtml.blink
+
+@charset "utf-8";
+
+a:lang(ar), a:lang(ckb), a:lang(fa), a:lang(kk-arab), a:lang(mzn), a:lang(p=
+s), a:lang(ur) { text-decoration: none; }
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-5c1bb84e-7c7e-477a-aa40-443b7dce6e48@mhtml.blink
+
+@charset "utf-8";
+
+:root topadblock, :root script[src^=3D"http://free-shoutbox.net/app/webroot=
+/shoutbox/sb.php?shoutbox=3D"] + #freeshoutbox_content, :root input[onclick=
+^=3D"window.open('http://www.FriendlyDuck.com/"], :root img[alt^=3D"Fuckboo=
+k"], :root iframe[src^=3D"http://static.mozo.com.au/strips/"], :root iframe=
+[id^=3D"google_ads_iframe"], :root header#hdr + #main > div[data-hveid], :r=
+oot div[jscontroller=3D"U835zd"] + c-wiz[jsrenderer=3D"YnuqN"], :root div[i=
+d^=3D"zergnet-widget"], :root div[id^=3D"traffective-ad-"], :root div[id^=
+=3D"sticky_ad_"], :root div[id^=3D"q1-adset-"], :root div[id^=3D"proadszone=
+-"], :root div[id^=3D"mainads"], :root div[id^=3D"lazyad-"], :root div[id^=
+=3D"google_dfp_"], :root div[id^=3D"google_ads_iframe_"], :root div[id^=3D"=
+dmRosAdWrapper"], :root div[id^=3D"div-gpt-ad"], :root div[id^=3D"div-adtec=
+h-ad-"], :root div[id^=3D"dfp-slot-"], :root div[id^=3D"dfp-ad-"], :root a[=
+data-obtrack^=3D"http://paid.outbrain.com/network/redir?"], :root a[href^=
+=3D"http://www1.clickdownloader.com/"], :root div[id^=3D"cns_ads_"], :root =
+div[id^=3D"advt-"], :root #__admvnlb_modal_container, :root div[id^=3D"adsp=
+ot-"], :root input[onclick^=3D"window.open('http://www.friendlyduck.com/"],=
+ :root div[id^=3D"ads300_250-widget"], :root div[id^=3D"ads250_250-widget"]=
+, :root div[id^=3D"ads120_600-widget"], :root div[id^=3D"adrotate_widgets-"=
+], :root div[id^=3D"adfox_"], :root div[id^=3D"ad_script_"], :root div[id^=
+=3D"ad_rect_"], :root #content > #right > .dose > .dosesingle, :root div[id=
+^=3D"ad_bigbox_"], :root div[id^=3D"ad-server-"], :root div[id^=3D"acm-ad-t=
+ag-"], :root div[id^=3D"ADV-SLOT-"], :root a[href^=3D"http://www.myfreecams=
+.com/?co_id=3D"][href*=3D"&track=3D"], :root div[id^=3D"advads-"], :root di=
+v[data-role=3D"sidebarAd"], :root div[data-native_ad], :root a[href^=3D" ht=
+tp://n47adshostnet.com/"], :root div[data-id^=3D"CarouselPLA-"] > .kzwEHf, =
+:root div[class^=3D"proadszone-"], :root div[class^=3D"pane-google-admanage=
+r-"], :root a[href^=3D"http://adultgames.xxx/"], :root a[href^=3D"http://se=
+mi-cod.com/clicks/"], :root div[class^=3D"index_displayAd_"], :root a[href^=
+=3D"http://www.affbuzzads.com/affiliate/"], :root div[class^=3D"index_adBef=
+oreContent_"], :root div[class^=3D"index_adAfterContent_"], :root a[href^=
+=3D"http://dwn.pushtraffic.net/"], :root div[class^=3D"hp-ad-rect-"], :root=
+ div[class^=3D"block-openx-"], :root div[class^=3D"ads-partner-"], :root di=
+v[class^=3D"ad_border_"], :root a[href^=3D"http://adprovider.adlure.net/"],=
+ :root div[class^=3D"Ad__container"], :root div[class*=3D"_AdInArticle_"], =
+:root div[class^=3D"ad_position_"], :root a[href^=3D"http://www.afco2go.com=
+/srv.php?"], :root div[aria-label=3D"Ads"], :root div > [class][onclick*=3D=
+".updateAnalyticsEvents"], :root bottomadblock, :root a[href^=3D"https://wa=
+tchmygirlfriend.tv/"], :root aside[itemtype=3D"https://schema.org/WPAdBlock=
+"], :root a[href^=3D"http://c.actiondesk.com/"], :root aside[id^=3D"div-gpt=
+-ad"], :root div[id^=3D"ad-cid-"], :root a[href^=3D"http://lp.ezdownloadpro=
+.info/"], :root a[href^=3D"http://uploaded.net/ref/"], :root aside[id^=3D"a=
+dvads_ad_widget-"], :root aside[id^=3D"adrotate_widgets-"], :root amp-ad-cu=
+stom, :root [id*=3D"MGWrap"], :root ad-desktop-sidebar, :root a[style=3D"di=
+splay:block;width:300px;min-height:250px"][href^=3D"http://li.cnet.com/clic=
+k?"], :root div[id^=3D"div-ads-"], :root a[href^=3D"http://at.atwola.com/"]=
+, :root a[onmousedown^=3D"this.href=3D'https://paid.outbrain.com/network/re=
+dir?"][target=3D"_blank"] + .ob_source, :root a[onmousedown^=3D"this.href=
+=3D'http://paid.outbrain.com/network/redir?"][target=3D"_blank"] + .ob_sour=
+ce, :root a[href^=3D"http://popup.taboola.com/"], :root a[href^=3D"//adbit.=
+co/?a=3DAdvertise&"], :root a[onmousedown^=3D"this.href=3D'/wp-content/embe=
+d-ad-content/"], :root div[class^=3D"AdhesionAd_"], :root div[class^=3D"Ad_=
+_bigBox"], :root div[role=3D"navigation"] + c-wiz > script + div > .kxhcC, =
+:root a[onclick*=3D"//m.economictimes.com/etmack/click.htm"], :root a[href^=
+=3D"https://www.travelzoo.com/oascampaignclick/"], :root a[href^=3D"https:/=
+/www.share-online.biz/affiliate/"], :root a[href^=3D"https://www.securegfm.=
+com/"], :root dfp-ad, :root a[href^=3D"//porngames.adult/?SID=3D"], :root a=
+[href^=3D"https://www.oneclickroot.com/?tap_a=3D"] > img, :root a[href^=3D"=
+http://adserver.adtech.de/"], :root a[href^=3D"https://www.mrskin.com/tour"=
+], :root div[id^=3D"advads_"], :root a[href^=3D"https://www.moscarossa.biz/=
+"], :root a[href^=3D"https://www.goldenfrog.com/vyprvpn?offer_id=3D"][href*=
+=3D"&aff_id=3D"], :root .trc_related_container div[data-item-syndicated=3D"=
+true"], :root a[href^=3D"https://www.firstload.com/affiliate/"], :root a[hr=
+ef^=3D"https://www.clicktraceclick.com/"], :root a[href^=3D"https://www.cam=
+you.com/?cam=3D"][href*=3D"&track=3D"], :root a[href^=3D"https://www.bebi.c=
+om"], :root a[href^=3D"https://www.adskeeper.co.uk/"], :root a[href^=3D"htt=
+p://pan.adraccoon.com?"], :root div[id^=3D"ad-gpt-"], :root a[href^=3D"http=
+://farm.plista.com/pets"], :root a[href^=3D"https://windscribe.com/promo/"]=
+, :root a[href^=3D"http://ad-emea.doubleclick.net/"], :root a[href^=3D"http=
+s://understandsolar.com/signup/?lead_source=3D"][href*=3D"&tracking_code=3D=
+"], :root div[id^=3D"tms-ad-dfp-"], :root a[href^=3D"https://trust.zone/go/=
+r.php?RID=3D"], :root a[href^=3D"https://track.adform.net/"], :root a[href^=
+=3D"https://traffic.bannerator.com/"], :root a[href^=3D"https://tracking.tr=
+uthfinder.com/?a=3D"], :root a[href^=3D"https://track.ultravpn.com/"], :roo=
+t a[href^=3D"https://www.adultempire.com/"][href*=3D"?partner_id=3D"], :roo=
+t a[href^=3D"https://track.healthtrader.com/"], :root a[href^=3D"https://tr=
+ack.clickmoi.xyz/"], :root a[href^=3D"https://track.afftck.com/"], :root a[=
+href^=3D"https://control.trafficfabrik.com/"], :root a[href^=3D"https://tra=
+ck.52zxzh.com/"], :root .ra[align=3D"right"][width=3D"30%"], :root a[href^=
+=3D"https://tour.mrskin.com/"], :root div[class^=3D"gemini-ad"], :root a[hr=
+ef^=3D"http://pwrads.net/"], :root a[href^=3D"//oardilin.com/"], :root a[hr=
+ef^=3D"https://torguard.net/aff.php"], :root a[href^=3D"https://www.what-se=
+xdating.com/"], :root a[href^=3D"https://tc.tradetracker.net/"] > img, :roo=
+t a[href^=3D"https://t.mobtya.com/"], :root a[href^=3D"https://t.hrtye.com/=
+"], :root div[id^=3D"ad_head_celtra_"], :root a[href^=3D"https://t.grtyi.co=
+m/"], :root aside[id^=3D"tn_ads_widget-"], :root a[href^=3D"https://syndica=
+tion.exoclick.com/splash.php?"], :root div[id^=3D"YFBMSN"], :root div[id^=
+=3D"ad-div-"], :root a[href^=3D"https://secure.eveonline.com/ft/?aid=3D"], =
+:root a[href^=3D"https://secure.bstlnk.com/"], :root a[href^=3D"https://rev=
+.adsession.com/"], :root a[href^=3D"https://retiremely.com/"], :root div[id=
+^=3D"yandex_ad"], :root a[href^=3D"http://y1jxiqds7v.com/"], :root a[href^=
+=3D"https://www.hotgirls4fuck.com/"], :root a[href^=3D"https://www.pornhat.=
+com/"][rel=3D"nofollow"], :root ad-slot, :root a[href^=3D"https://pubads.g.=
+doubleclick.net/"], :root a[href^=3D"https://prf.hn/click/"][href*=3D"/adre=
+f:"], :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[hr=
+ef^=3D"http://www.my-dirty-hobby.com/?sub=3D"], :root a[href^=3D"https://po=
+rndeals.com/?track=3D"], :root a[href^=3D"https://mk-cdn.net/"], :root a[hr=
+ef^=3D"https://mk-ads.com/"], :root a[href^=3D"https://jmp.awempire.com/"],=
+ :root a[href^=3D"https://members.linkifier.com/public/affiliateLanding?ref=
+Code=3D"], :root a[href^=3D"https://medleyads.com/"], :root a[href*=3D".app=
+rovallamp.club/"], :root a[href^=3D"https://landing1.brazzersnetwork.com"],=
+ :root a[href^=3D"https://land.rk.com/landing/"], :root .lads[width=3D"100%=
+"][style=3D"background:#FFF8DD"], :root a[href^=3D"https://land.brazzersnet=
+work.com/landing/"], :root a[href^=3D"https://incisivetrk.cvtr.io/click?"],=
+ :root a[href^=3D"https://iactrivago.ampxdirect.com/"], :root a[href^=3D"ht=
+tp://www.usearchmedia.com/signup?"], :root a[onmousedown^=3D"this.href=3D'h=
+ttp://staffpicks.outbrain.com/network/redir?"][target=3D"_blank"] + .ob_sou=
+rce, :root a[href^=3D"https://googleads.g.doubleclick.net/pcs/click"], :roo=
+t a[href^=3D"http://cdn.adstract.com/"], :root a[href^=3D"https://gogoman.m=
+e/"], :root a[href^=3D"https://go.stripchat.com/"][href*=3D"&campaignId=3D"=
+], :root a[href*=3D".inclk.com/"], :root a[href^=3D"https://go.ad2up.com/"]=
+, :root a[href^=3D"https://freeadult.games/"], :root a[href^=3D"//nlkdom.co=
+m/"], :root a[onmousedown^=3D"this.href=3D'http://staffpicks.outbrain.com/n=
+etwork/redir?"][target=3D"_blank"], :root a[href^=3D"https://fonts.fontplac=
+e9.com/"], :root a[href^=3D"http://clkmon.com/adServe/"], :root a[href^=3D"=
+https://flirtaescopa.com/"], :root [lazy-ad=3D"leftthin_banner"], :root a[h=
+ref^=3D"https://dynamicadx.com/"], :root a[href^=3D"http://wxdownloadmanage=
+r.com/dl/"], :root div[class^=3D"local-feed-banner-ads"], :root .GFYY1SVE2 =
+> .GFYY1SVD2 > .GFYY1SVG5, :root a[href^=3D"https://djtcollectorclub.org/"]=
+[href*=3D"?affiliate_id=3D"], :root a[href^=3D"https://lingthatsparleso.inf=
+o/"], :root a[href^=3D"https://click.plista.com/pets"], :root a[href^=3D"ht=
+tps://chaturbate.xyz/"], :root a[href^=3D"https://chaturbate.jjgirls.com/"]=
+[href*=3D"?tour=3D"], :root a[href^=3D"https://chaturbate.com/in/?tour=3D"]=
+, :root a[href^=3D"https://chaturbate.com/affiliates/"], :root .mod > ._jH =
++ .rscontainer, :root a[href^=3D"https://blackorange.go2cloud.org/"], :root=
+ a[href^=3D"http://www.1clickdownloader.com/"], :root a[href^=3D"https://ww=
+w.googleadservices.com/pagead/aclk?"], :root a[href^=3D"https://awentw.com/=
+"], :root a[href^=3D"https://servedbyadbutler.com/"], :root a[href^=3D"http=
+s://mob1ledev1ces.com/"], :root a[href^=3D"https://betway.com/"][href*=3D"&=
+a=3D"], :root a[href^=3D"http://dethao.com/"], :root a[href^=3D"https://ads=
+.ad4game.com/"], :root a[href^=3D"https://affiliates.bet-at-home.com/proces=
+sing/"], :root a[href^=3D"http://adultfriendfinder.com/p/register.cgi?pid=
+=3D"], :root a[href^=3D"https://www.popads.net/users/"], :root iframe[src^=
+=3D"http://ad.yieldmanager.com/"], :root a[href^=3D"http://pubads.g.doublec=
+lick.net/"], :root a[href^=3D"https://sexdatingz.live/"], :root a[href^=3D"=
+//bwnjijl7w.com/"], :root a[href^=3D"https://adultfriendfinder.com/go/page/=
+landing"], :root a[href*=3D"pussl3.com"], :root a[href^=3D"https://adswick.=
+com/"], :root ads-right, :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root =
+a[href^=3D"https://adserver.adreactor.com/"], :root a[href^=3D"https://refp=
+aano.host/"], :root a[href^=3D"https://meet-to-fuck.com/tds"], :root a[href=
+^=3D"http://data.linoleictanzaniatitanic.com/"], :root a[href^=3D"https://a=
+dhealers.com/"], :root a[href^=3D"https://adclick.g.doubleclick.net/"], :ro=
+ot a[href^=3D"https://ad.doubleclick.net/"], :root a[href^=3D"http://zevera=
+.com/afi.html"], :root a[href^=3D"http://go.oclaserver.com/"], :root a[href=
+^=3D"https://ad.atdmt.com/"], :root .trc_rbox .syndicatedItem, :root a[href=
+^=3D"https://aaucwbe.com/"], :root a[href^=3D"https://a.adtng.com/"], :root=
+ a[href^=3D"https://8a1ccf65f2b1302.com/"], :root a[href^=3D"http://xtgem.c=
+om/click?"], :root a[href^=3D"https://ads.trafficpoizon.com/"], :root a[hre=
+f^=3D"http://rekoverr.com/"], :root a[href^=3D"https://chaturbate.com/in/?t=
+rack=3D"], :root a[href^=3D"http://www.zergnet.com/i/"], :root a[href^=3D"h=
+ttp://hyperies.info/"], :root a[href^=3D"http://www.torntv-downloader.com/"=
+], :root a[href^=3D"http://www.tirerack.com/affiliates/"], :root div[class^=
+=3D"AdBannerWrapper-"], :root a[href^=3D"http://www.text-link-ads.com/"], :=
+root a[href^=3D"http://www.streamate.com/exports/"], :root a[onmousedown^=
+=3D"this.href=3D'https://paid.outbrain.com/network/redir?"][target=3D"_blan=
+k"], :root a[href^=3D"http://www.sfippa.com/"], :root a[href^=3D"http://www=
+.xmediaserve.com/"], :root a[href^=3D"http://www.sex.com/videos/?utm_"], :r=
+oot a[href^=3D"http://paid.outbrain.com/network/redir?"], :root a[href^=3D"=
+http://www.sex.com/?utm_"], :root a[onmousedown^=3D"this.href=3D'http://pai=
+d.outbrain.com/network/redir?"][target=3D"_blank"], :root a[href^=3D"http:/=
+/www.roboform.com/php/land.php"], :root a[href^=3D"http://secure.signup-pag=
+e.com/"], :root a[href^=3D"http://www.quick-torrent.com/download.html?aff"]=
+, :root a[href^=3D"http://adexprt.me/"], :root a[href^=3D"http://www.pinkvi=
+sualgames.com/?revid=3D"], :root a[href^=3D"https://trklvs.com/"], :root a[=
+href^=3D"http://www.paddypower.com/?AFF_ID=3D"], :root div[data-spotim-slot=
+], :root a[href^=3D"http://www.freefilesdownloader.com/"], :root a[href^=3D=
+"http://www.mysuperpharm.com/"], :root .trc_rbox_border_elm .syndicatedItem=
+, :root a[href^=3D"http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[=
+href^=3D"http://www.myfreepaysite.com/sfw.php?aid"], :root .rhsvw[style=3D"=
+background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"]=
+, :root a[href^=3D"http://www.moneyducks.com/"], :root a[href^=3D"http://bc=
+ntrack.com/"], :root a[href^=3D"http://www.securegfm.com/"], :root a[href^=
+=3D"http://www.liversely.net/"], :root a[href^=3D"http://www.linkbucks.com/=
+referral/"], :root a[href^=3D"//88d7b6aa44fb8eb.com/"], :root a[href^=3D"ht=
+tp://www.ireel.com/signup?ref"], :root a[href*=3D"=3DAdtracker"], :root a[h=
+ref^=3D"http://www.incredimail.com/?id=3D"], :root a[href^=3D"http://www.id=
+ownloadplay.com/"], :root a[href^=3D"http://www.hitcpm.com/"], :root a[href=
+^=3D"http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root div[id^=3D"div_=
+openx_ad_"], :root a[href^=3D"http://www.friendlyquacks.com/"], :root a[hre=
+f^=3D"https://www.financeads.net/tc.php?"], :root a[href^=3D"http://www.fri=
+endlyduck.com/AF_"], :root a[href*=3D"emprestimo.eu"], :root a[href^=3D"htt=
+ps://content.oneindia.com/www/delivery/"], :root a[href^=3D"http://www.fpcT=
+raffic2.com/blind/in.cgi?"], :root a[href^=3D"http://www.fonts.com/BannerSc=
+ript/"], :root a[href^=3D"http://www.fleshlight.com/"], :root a[href^=3D"ht=
+tp://www.flashx.tv/downloadthis"], :root div[class^=3D"SponsoredAds"], :roo=
+t .trc_rbox_div a[target=3D"_blank"][href^=3D"http://tab"], :root a[href^=
+=3D"https://americafirstpolls.com/"], :root a[href^=3D"http://clickserv.sit=
+escout.com/"], :root a[href^=3D"http://www.firstload.de/affiliate/"], :root=
+ a[href^=3D"http://www.twinplan.com/AF_"], :root a[href^=3D"http://www.fduc=
+ks.com/"], :root a[href^=3D"http://www.epicgameads.com/"], :root a[href^=3D=
+"http://www.easydownloadnow.com/"], :root a[href^=3D"http://www.duckssoluti=
+ons.com/"], :root a[href^=3D"https://go.trkclick2.com/"], :root a[href^=3D"=
+http://www.duckcash.eu/"], :root a[href^=3D"http://go.seomojo.com/tracking2=
+02/"], :root a[href^=3D"http://www.downloadweb.org/"], :root .commercial-un=
+it-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :=
+root a[href^=3D"http://www.installads.net/"], :root div[role=3D"navigation"=
+] + c-wiz > div > .kxhcC, :root a[href^=3D"http://www.download-provider.org=
+/"], :root a[href^=3D"http://www.down1oads.com/"], :root a[href^=3D"https:/=
+/trafficmedia.center/"], :root a[href^=3D"http://www.dealcent.com/register.=
+php?affid=3D"], :root a[href^=3D"https://gghf.mobi/"], :root a[href^=3D"htt=
+p://www.terraclicks.com/"], :root a[href^=3D"http://www.coinducks.com/"], :=
+root .rscontainer > .ellip, :root a[href^=3D"http://www.clkads.com/adServe/=
+"], :root a[href^=3D"http://www.clickansave.net/"], :root div[class^=3D"adp=
+ubs-"], :root a[href*=3D"deliver.trafficfabrik.com"], :root a[href^=3D"http=
+://www.cash-duck.com/"], :root a[href^=3D"http://www.bitlord.me/share/"], :=
+root div[class^=3D"Directory__footerAds"], :root a[href^=3D"http://www.bet3=
+65.com/"][href*=3D"?affiliate=3D"], :root a[href^=3D"http://www.bet365.com/=
+"][href*=3D"&affiliate=3D"], :root a[href^=3D"http://www.badoink.com/go.php=
+?"], :root #mbEnd[cellspacing=3D"0"][cellpadding=3D"0"], :root div[data-ad-=
+underplayer], :root a[href^=3D"http://www.richducks.com/"], :root a[href^=
+=3D"http://www.babylon.com/welcome/index?affID"], :root a[href^=3D"http://w=
+ww.sexgangsters.com/?pid=3D"], :root a[href^=3D"http://www.amazon.co.uk/exe=
+c/obidos/external-search?"], :root a[href^=3D"https://ads-for-free.com/clic=
+k.php?"], :root a[href^=3D"http://tracker.mybroadband.co.za/"], :root a[hre=
+f^=3D"http://www.socialsex.com/"], :root a[href^=3D"https://www.camsoda.com=
+/enter.php?id=3D"], :root a[href^=3D"http://go.ad2up.com/"], :root a[href^=
+=3D"https://badoinkvr.com/"], :root a[href*=3D"/adServe/banners?"], :root a=
+[href^=3D"http://www.adxpansion.com"], :root .plistaList > .itemLinkPET, :r=
+oot a[href^=3D"http://www.adbrite.com/mb/commerce/purchase_form.php?"], :ro=
+ot a[href^=3D"http://www.adultdvdempire.com/?partner_id=3D"][href*=3D"&utm_=
+"], :root a[href^=3D"http://www.ragazzeinvendita.com/?rcid=3D"], :root a[hr=
+ef^=3D"http://www.TwinPlan.com/AF_"], :root div[class^=3D"adbanner_"], :roo=
+t a[href^=3D"http://www.brightwheel.info/"], :root a[href^=3D"https://www.i=
+clwy.xyz/"], :root a[href^=3D"http://www.123-reg.co.uk/affiliate2.cgi"], :r=
+oot div[itemtype=3D"http://www.schema.org/WPAdBlock"], :root a[href^=3D"htt=
+p://wopertific.info/"], :root a[href^=3D"http://bodelen.com/"], :root a[hre=
+f^=3D"http://wgpartner.com/"], :root a[href^=3D"http://webgirlz.online/land=
+ing/"], :root div[id^=3D"ads300_600-widget"], :root div[class^=3D"Ad__adCon=
+tainer"], :root a[href^=3D"http://web.adblade.com/"], :root div[class^=3D"B=
+lockAdvert-"], :root a[href^=3D"https://go.onclasrv.com/"], :root a[href^=
+=3D"http://wct.link/"], :root a[href^=3D"https://topoffers.com/"][href*=3D"=
+/?pid=3D"], :root a[href^=3D"http://vinfdv6b4j.com/"], :root a[href^=3D"htt=
+p://s9kkremkr0.com/"], :root a[href^=3D"https://www.nutaku.net/signup/landi=
+ng/"], :root a[href^=3D"http://us.marketgid.com"], :root a[href^=3D"http://=
+ul.to/ref/"], :root a[href^=3D"https://adsrv4k.com/"], :root a[href^=3D"htt=
+p://trk.mdrtrck.com/"], :root a[href^=3D"http://traffic.tc-clicks.com/"], :=
+root div[class^=3D"awpcp-random-ads"], :root a[href^=3D"http://www.graboid.=
+com/affiliates/"], :root a[href^=3D"http://tracking.toroadvertising.com/"],=
+ :root a[href^=3D"http://www.liutilities.com/"], :root a[href^=3D"http://ww=
+w.dl-provider.com/search/"], :root a[href^=3D"http://tc.tradetracker.net/"]=
+ > img, :root a[href^=3D"http://tracking.deltamediallc.com/"], :root a[href=
+^=3D"http://track.adform.net/"], :root a[href^=3D"http://tour.affbuzzads.co=
+m/"], :root a[href^=3D"https://iac.ampxdirect.com/"], :root a[href^=3D"http=
+://t.mdn2015x3.com/"], :root a[href^=3D"http://galleries.securewebsiteacces=
+s.com/"], :root a[href^=3D"http://stateresolver.link/"], :root a[href^=3D"h=
+ttp://sharesuper.info/"], :root a[href^=3D"http://campaign.bharatmatrimony.=
+com/cbstrack/"], :root a[href^=3D"https://www.mypornstarcams.com/landing/cl=
+ick/"], :root [href^=3D"https://maskip.co/"], :root a[href^=3D"http://getli=
+nksinaseconds.com/"], :root a[href*=3D".intab.fun/"], :root a[href^=3D"http=
+://secure.signup-way.com/"], :root a[href*=3D".clkcln.com/"], :root [onclic=
+k^=3D"window.open('http://adultfriendfinder.com/search/"], :root a[href^=3D=
+"http://secure.hostgator.com/~affiliat/"], :root a[href*=3D"/cmd.php?ad=3D"=
+], :root a[href^=3D"http://refpaano.host/"], :root #__mom_ad_2, :root a[hre=
+f^=3D"http://ads.sprintrade.com/"], :root a[href^=3D"http://record.commissi=
+onking.com/"], :root div[class*=3D"-storyBodyAd-"], :root a[href^=3D"http:/=
+/record.betsafe.com/"], :root a[href^=3D"https://keep2share.cc/pr/"], :root=
+ a[href^=3D"https://clixtrac.com/"], :root [onclick*=3D"content.ad/"], :roo=
+t a[href^=3D"http://adlev.neodatagroup.com/"], :root a[href^=3D"http://real=
+lygoodlink.extremefreegames.com/"], :root a[href^=3D"http://promos.bwin.com=
+/"], :root a[href*=3D".irtyc.com/"], :root a[href^=3D"http://z1.zedo.com/"]=
+, :root a[href^=3D"http://pokershibes.com/index.php?ref=3D"], :root a[href^=
+=3D"http://mmo123.co/"], :root a[href^=3D"https://www.oboom.com/ref/"], :ro=
+ot a[href^=3D"http://media.paddypower.com/redirect.aspx?"], :root a[href^=
+=3D"http://allaptair.club/"], :root #rhs_block .xpdopen > ._OKe > div > .mo=
+d > ._yYf, :root a[href^=3D"//ads.ad-center.com/"], :root a[href^=3D"https:=
+//track.trkinator.com/"], :root a[data-redirect^=3D"this.href=3D'http://pai=
+d.outbrain.com/network/redir?"], :root div[id^=3D"ad-position-"], :root a[h=
+ref^=3D"http://liversely.com/"], :root a[href^=3D"https://deliver.ptgncdn.c=
+om/"], :root a[href^=3D"https://www.arthrozene.com/"][href*=3D"?tid=3D"], :=
+root a[href^=3D"http://feeds1.validclick.com/"], :root a[href^=3D"http://la=
+testdownloads.net/download.php?"], :root a[href^=3D"http://k2s.cc/code/"], =
+:root #topstuff > #tads, :root a[href*=3D".bang.com/"][href*=3D"&aff=3D"], =
+:root a[data-widget-outbrain-redirect^=3D"http://paid.outbrain.com/network/=
+redir?"], :root a[href^=3D"http://join3.bannedsextapes.com/track/"], :root =
+a[href^=3D"https://gamescarousel.com/"], :root a[href^=3D"http://istri.it/?=
+"], :root a[href^=3D"http://www.fbooksluts.com/"], :root a[href^=3D"http://=
+www.cdjapan.co.jp/aff/click.cgi/"], :root a[href^=3D"//api.ad-goi.com/"], :=
+root a[href*=3D"//ridingintractable.com/"], :root a[href^=3D"http://intent.=
+bingads.com/"], :root div[id^=3D"crt-"][style], :root a[href^=3D"http://igr=
+omir.info/"], :root a[href^=3D"https://track.themadtrcker.com/"], :root a[h=
+ref^=3D"http://hyperlinksecure.com/go/"], :root .ob_container .item-contain=
+er-obpd, :root a[href^=3D"http://websitedhoome.com/"], :root a[href^=3D"htt=
+p://www.adskeeper.co.uk/"], :root a[href^=3D"https://clickadilla.com/"], :r=
+oot a[href^=3D"http://www.gfrevenge.com/landing/"], :root a[href^=3D"http:/=
+/45eijvhgj2.com/"], :root a[href^=3D"http://hpn.houzz.com/"], :root a[href*=
+=3D"?adlivk=3D"][href*=3D"&refer=3D"], :root a[href^=3D"http://searchtabnew=
+.com/"], :root a[href^=3D"//look.djfiln.com/"], :root a[href^=3D"http://gre=
+ensmoke.com/"], :root a[href^=3D"//5e1fcb75b6d662d.com/"], :root a[href^=3D=
+"http://googleads.g.doubleclick.net/pcs/click"], :root a[href^=3D"https://b=
+nsjb1ab1e.com/"], :root a[href^=3D"http://mo8mwxi1.com/"], :root div[class^=
+=3D"ResponsiveAd-"], :root a[href^=3D"http://install.securewebsiteaccess.co=
+m/"], :root a[href^=3D"http://www.revenuehits.com/"], :root div[id^=3D"bloc=
+k-views-topheader-ad-block-"], :root a[href^=3D"https://mcdlks.com/"], :roo=
+t a[href^=3D"https://bs.serving-sys.com"], :root .__y_elastic .__y_item, :r=
+oot a[href^=3D"http://go.mobisla.com/"], :root a[href^=3D"//srv.buysellads.=
+com/"], :root a[href^=3D"http://g1.v.fwmrm.net/ad/"], :root .widget-pane-se=
+ction-result[data-result-ad-type], :root a[href^=3D"http://imads.integral-m=
+arketing.com/"], :root a[href^=3D"http://freesoftwarelive.com/"], :root a[h=
+ref^=3D"http://adtrackone.eu/"], :root a[href^=3D"http://finaljuyu.com/"], =
+:root a[href^=3D"http://fileloadr.com/"], :root a[href^=3D"https://dltags.c=
+om/"], :root a[href^=3D"http://onclickads.net/"], :root a[href^=3D"http://e=
+xtra.bet365.com/"][href*=3D"?affiliate=3D"], :root a[href^=3D"http://ethfw0=
+370q.com/"], :root [id^=3D"bunyad_ads_"], :root a[href^=3D"http://elitefuck=
+book.com/"], :root a[href^=3D"http://eclkmpsa.com/"], :root a[href*=3D"//3w=
+r110.xyz/"], :root a[href^=3D"http://earandmarketing.com/"], :root #content=
+ > #center > .dose > .dosesingle, :root a[href^=3D"http://campaign.bharatma=
+trimony.com/track/"], :root a[href^=3D"http://d2.zedo.com/"], :root a[href^=
+=3D"http://keep2share.cc/pr/"], :root a[href^=3D"http://cp.cbbp1.com"], :ro=
+ot a[href^=3D"http://contractallsticker.net/"], :root a[href^=3D"http://cod=
+ec.codecm.com/"], :root a[href^=3D"http://refer.webhostingbuzz.com/"], :roo=
+t a[href^=3D"https://paid.outbrain.com/network/redir?"], :root a[href^=3D"h=
+ttp://www.downloadplayer1.com/"], :root a[href^=3D"http://clicks.binaryprom=
+os.com/"], :root iframe[name^=3D"google_ads_iframe"], :root div[class^=3D"l=
+argeRectangleAd_"], :root a[href^=3D"https://dediseedbox.com/clients/aff.ph=
+p?"], :root a[href^=3D"http://www.wantstraffic.com/"], :root a[href^=3D"htt=
+p://databass.info/"], :root a[href^=3D"http://www.urmediazone.com/signup"],=
+ :root a[href^=3D"http://click.plista.com/pets"], :root a[href^=3D"https://=
+a.bestcontentpc.top/"], :root a[href^=3D"http://chaturbate.com/affiliates/"=
+], :root a[href^=3D"http://www.firstload.com/affiliate/"], :root a[href^=3D=
+"http://www.friendlyadvertisements.com/"], :root a[href^=3D"//00ae8b5a9c1d5=
+97.com/"], :root a[href^=3D"http://cdn3.adbrau.com/"], :root a[href^=3D"htt=
+p://get.slickvpn.com/"], :root a[href^=3D"http://amzn.to/"] > img[src^=3D"d=
+ata"], :root a[href^=3D"http://bs.serving-sys.com/"], :root a[href^=3D"http=
+://cpaway.afftrack.com/"], :root a[href^=3D"http://cdn.adsrvmedia.net/"], :=
+root [lazy-ad=3D"top_banner"], :root a[href^=3D"http://360ads.go2cloud.org/=
+"], :root a[href^=3D"http://dftrck.com/"], :root a[href^=3D"http://casino-x=
+.com/?partner"], :root div[data-flt-ve=3D"sponsored_search_ads"], :root a[h=
+ref^=3D"http://record.sportsbetaffiliates.com.au/"], :root a[href^=3D"http:=
+//campeeks.com/"][href*=3D"&utm_"], :root #flowplayer > div[style=3D"positi=
+on: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-inde=
+x: 999;"], :root a[href^=3D"http://download-performance.com/"], :root a[hre=
+f^=3D"http://www.on2url.com/app/adtrack.asp"], :root #__nq__hh[style=3D"dis=
+play:block!important"], :root a[href^=3D"http://guideways.info/"], :root a[=
+href^=3D"http://ads.expekt.com/affiliates/"], :root a[href^=3D"http://callv=
+ille.xyz/"], :root a[href^=3D"http://xads.zedo.com/"], :root a[href^=3D"htt=
+p://www.affiliates1128.com/processing/"], :root a[href^=3D"http://c.jumia.i=
+o/"], :root a[href^=3D"https://bullads.net/get/"], :root a[href^=3D"http://=
+yads.zedo.com/"], :root a[href^=3D"http://down1oads.com/"], :root a[href^=
+=3D"http://buysellads.com/"], :root a[href^=3D"http://serve.williamhill.com=
+/promoRedirect?"], :root a[href^=3D"https://uncensored.game/"], :root td[va=
+lign=3D"top"] > .mainmenu[style=3D"padding:10px 0 0 0 !important;"], :root =
+a[href^=3D"http://feedads.g.doubleclick.net/"], :root a[href^=3D"http://bet=
+ahit.click/"], :root #rhs_block > #mbEnd, :root a[href^=3D"http://cinema.fr=
+iendscout24.de?"], :root [lazy-ad=3D"lefttop_banner"], :root a[href^=3D"htt=
+p://servicegetbook.net/"], :root a[href^=3D"http://bestorican.com/"], :root=
+ a[href^=3D"http://bcp.crwdcntrl.net/"], :root a[href^=3D"http://bc.vc/?r=
+=3D"], :root a[href^=3D"http://banners.victor.com/processing/"], :root a[hr=
+ef^=3D"http://adf.ly/?id=3D"], :root a[href^=3D"https://uncensored3d.com/"]=
+, :root div[data-subscript=3D"Advertising"], :root a[href^=3D"http://t.mdn2=
+015x2.com/"], :root div[class$=3D"dealnews"] > .dealnews, :root a[href^=3D"=
+http://click.payserve.com/"], :root a[href^=3D"http://s5prou7ulr.com/"], :r=
+oot a[href^=3D"http://azmobilestore.co/"], :root a[href^=3D"http://affiliat=
+e.glbtracker.com/"], :root a[href^=3D"https://transfer.xe.com/signup/track/=
+redirect?"], :root a[href^=3D"http://anonymous-net.com/"], :root div[id^=3D=
+"ad_position_"], :root a[href^=3D"https://www.dsct1.com/"], :root a[data-ob=
+url^=3D"https://paid.outbrain.com/network/redir?"], :root .icons-rss-feed +=
+ .icons-rss-feed div[class$=3D"_item"], :root a[href^=3D"http://aflrm.com/"=
+], :root a[href^=3D"http://affiliates.pinnaclesports.com/processing/"], :ro=
+ot a[href^=3D"http://partner.sbaffiliates.com/"], :root a[href^=3D"http://a=
+ffiliate.coral.co.uk/processing/"], :root a[href^=3D"http://aff.ironsocket.=
+com/"], :root a[href^=3D"http://adsrv.keycaptcha.com"], :root a[href^=3D"ht=
+tps://zononi.com/"], :root a[href^=3D"http://adserving.unibet.com/"], :root=
+ a[href^=3D"https://secure.adnxs.com/clktrb?"], :root a[href^=3D"http://ads=
+erver.adtechus.com/"], :root a[href^=3D"http://adserver.adreactor.com/"], :=
+root a[href^=3D"http://www.yourfuckbook.com/?"], :root a[href^=3D"//go.oncl=
+asrv.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root a[href^=
+=3D"http://cwcams.com/landing/click/"], :root a[href^=3D"http://ads.betfair=
+.com/redirect.aspx?"], :root a[href^=3D"http://ads.affbuzzads.com/"], :root=
+ a[href^=3D"http://online.ladbrokes.com/promoRedirect?"], :root a[href^=3D"=
+http://go.trafficshop.com/"], :root a[href^=3D"http://ads.ad-center.com/"],=
+ :root a[href^=3D"https://horny-pussies.com/tds"], :root a[href^=3D"http://=
+adfarm.mediaplex.com/"], :root a[href^=3D"http://ad.doubleclick.net/"], :ro=
+ot a[href^=3D"https://k2s.cc/pr/"], :root a[href^=3D"http://ad.au.doublecli=
+ck.net/"], :root a[href^=3D"https://is.ltroute.com/"], :root a[href^=3D"htt=
+p://www.incredimail.com/?id"], :root a[href*=3D"/servlet/click/zone?"], :ro=
+ot a[href^=3D"http://ad-apac.doubleclick.net/"], :root a[href^=3D"http://a6=
+3t9o1azf.com/"], :root a[href^=3D"http://srvpub.com/"], :root a[href^=3D"ht=
+tp://a.adquantix.com/"], :root a[href^=3D"http://NowDownloadAll.com"], :roo=
+t a[href^=3D"http://adtrack123.pl/"], :root a[href^=3D"http://9amq5z4y1y.co=
+m/"], :root a[href^=3D"http://4c7og3qcob.com/"], :root a[href^=3D"//go.vedo=
+hd.org/"], :root a[href^=3D"http://www.ducksnetwork.com/"], :root a[href^=
+=3D"http://3wr110.net/"], :root a[href^=3D"http://1phads.com/"], :root a[hr=
+ef^=3D"//zenhppyad.com/"], :root #mn div[style=3D"position:relative"] > #ce=
+nter_col > div > ._dPg, :root a[href^=3D"http://www.myvpn.pro/"], :root a[h=
+ref^=3D"//www.pd-news.com/"], :root a[href^=3D"//www.mgid.com/"], :root a[h=
+ref^=3D"http://lp.ncdownloader.com/"], :root a[href^=3D"//pubads.g.doublecl=
+ick.net/"], :root #MAIN.ShowTopic > .ad, :root a[href^=3D"https://porngames=
+.adult/?SID=3D"], :root a[href^=3D"http://findersocket.com/"], :root ad-slo=
+t--header-banner, :root a[href^=3D"https://m.do.co/c/"] > img, :root a[href=
+^=3D"http://connectlinking6.com/"], :root a[href^=3D"https://spygasm.com/tr=
+ack?"], :root a[href^=3D"http://cdn3.adexprts.com/"], :root #tads + div + .=
+c, :root a[href^=3D"//jsmptjmp.com/"], :root .ra[width=3D"30%"][align=3D"ri=
+ght"] + table[width=3D"70%"][cellpadding=3D"0"], :root a[href^=3D"https://i=
+lovemyfreedoms.com/"][href*=3D"?affiliate_id=3D"], :root a[href^=3D"//healt=
+haffiliate.center/"], :root [id*=3D"ScriptRoot"], :root a[href^=3D"//db52cc=
+91beabf7e8.com/"], :root .plistaList > .plista_widget_underArticle_item[dat=
+a-type=3D"pet"], :root #center_col > #taw > #tvcap > .commercial-unit-deskt=
+op-top, :root a[href^=3D"http://www.afgr2.com/"], :root #mn div[style=3D"po=
+sition:relative"] > #center_col > ._Ak, :root a[href^=3D"https://www.oboom.=
+com/ad/"], :root a[href^=3D"//4f6b2af479d337cf.com/"], :root a[href^=3D"htt=
+p://fusionads.net"], :root a[href^=3D"https://awejmp.com/"], :root a[href^=
+=3D" http://www.sex.com/"][href*=3D"&utm_"], :root .section-result[data-res=
+ult-ad-type], :root a[href^=3D" http://ads.ad-center.com/"], :root .l-conta=
+iner > #fishtank, :root a[href^=3D"https://fileboom.me/pr/"], :root a[href^=
+=3D"http://marketgid.com"], :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB,=
+ :root a[href*=3D"onclkds."], :root .trc_rbox_div .syndicatedItem, :root #a=
+ds > .dose > .dosesingle, :root .commercial-unit-mobile-top .jackpot-main-c=
+ontent-container > .UpgKEd + .nZZLFc > div > .vci, :root a[href*=3D"deliver=
+y.trafficfabrik.com"], :root a[href*=3D"=3Dexoclick"], :root div[class^=3D"=
+backfill-taboola-home-slot-"], :root a[href*=3D"=3Dadscript"], :root #mn #c=
+enter_col > div > h2.spon:first-child, :root a[href*=3D"//bongacams5.com/tr=
+ack?"], :root fbs-ad, :root a[href*=3D"5iclx7wa4q.com"], :root a[href^=3D"h=
+ttps://www.adxtro.com/"], :root #center_col > #resultStats + #tads + #res +=
+ #tads, :root a[href*=3D"//bongacams2.com/track?"], :root a[href^=3D"http:/=
+/www.drowle.com/"], :root a[href*=3D".udncoeln.com/"], :root a[href*=3D".qe=
+rtewrt.com/"], :root a[target=3D"_blank"][href^=3D"http://api.taboola.com/"=
+], :root a[href*=3D".smartadserver.com"], :root a[href^=3D"http://track.inc=
+ognitovpn.com/"], :root a[href*=3D"//bongacams.com/track?"], :root a[data-o=
+burl^=3D"http://paid.outbrain.com/network/redir?"], :root a[href^=3D"http:/=
+/refpa.top/"], :root a[href*=3D".revimedia.com/"], :root .__ywvr .__y_item,=
+ :root a[href^=3D"https://farm.plista.com/pets"], :root a[href*=3D".red9012=
+1.com/"], :root [href^=3D"http://advertisesimple.info/"], :root a[href^=3D"=
+https://www.friendlyduck.com/AF_"], :root #center_col > #resultStats + div =
++ #res + #tads, :root a[href^=3D"//40ceexln7929.com/"], :root a[href^=3D"ht=
+tps://playuhd.host/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c=
+, :root a[href*=3D".purple6401.com/"], :root a[href^=3D"http://www.greenman=
+gaming.com/?tap_a=3D"], :root a[href*=3D".opskln.com/"], :root a[href*=3D".=
+fwd28.com/"], :root [lazy-ad=3D"leftbottom_banner"], :root p[id^=3D"div-gpt=
+-ad-"], :root a[href^=3D"http://fsoft4down.com/"], :root a[href*=3D"ad2upap=
+p.com/"], :root a[href^=3D"http://see-work.info/"], :root a[href*=3D"/adrot=
+ate-out.php?"], :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-t=
+op, :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div=
+[class$=3D"_item"], :root a[href*=3D".orange2258.com/"], :root #taw > .med =
++ div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root .p=
+lista_widget_belowArticleRelaunch_item[data-type=3D"pet"], :root div[id^=3D=
+"div_ad_stack_"], :root a[href*=3D".ichlnk.com/"], :root .mod > .gws-local-=
+promotions__border, :root a[href^=3D"http://data.committeemenencyclopedicre=
+pertory.info/"], :root a[href*=3D".allsports4you.club"], :root a[href^=3D"h=
+ttps://deliver.tf2www.com/"], :root a[href^=3D"http://spygasm.com/track?"],=
+ :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href*=3D".adk2x.=
+com/"], :root a[href^=3D"http://duckcash.eu/"], :root a[href^=3D"http://www=
+.mobileandinternetadvertising.com/"], :root a[href^=3D"http://www.downloadt=
+hesefiles.com/"], :root a[href^=3D"http://secure.cbdpure.com/aff/"], :root =
+.GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root a[data-url^=3D"http://paid.out=
+brain.com/network/redir?"] + .author, :root a[href^=3D"http://liversely.net=
+/"], :root iframe[id^=3D"google_ads_frame"], :root a[href^=3D"http://www.bl=
+uehost.com/track/"] > img, :root a[data-url^=3D"http://paid.outbrain.com/ne=
+twork/redir?"], :root a[href^=3D"http://play4k.co/"], :root a[data-redirect=
+^=3D"https://paid.outbrain.com/network/redir?"], :root a[href^=3D"http://n.=
+admagnet.net/"], :root a[href^=3D"http://bestchickshere.com/"], :root a[hre=
+f^=3D"http://www.streamtunerhd.com/signup?"], :root #ssmiwdiv[jsdisplay], :=
+root a[href^=3D"//awejmp.com/"], :root a[href^=3D"http://www.getyourguide.c=
+om/?partner_id=3D"], :root [onclick^=3D"window.open('https://www.brazzersne=
+twork.com/landing/"], :root a[href*=3D".adsrv.eacdn.com/"] > img, :root a[h=
+ref^=3D"http://mgid.com/"], :root a[href*=3D"a2g-secure.com"], :root #resul=
+tspanel > #topads, :root a[href^=3D"http://espn.zlbu.net/"], :root a[href^=
+=3D"http://k2s.cc/pr/"], :root a[href^=3D"http://9nl.es/"], :root #assetsLi=
+stings[style=3D"display: block;"], :root [onclick^=3D"window.open('window.o=
+pen('//delivery.trafficfabrik.com/"], :root a[href^=3D"http://adrunnr.com/"=
+], :root [id*=3D"MarketGid"], :root div[data-mediatype=3D"advertising"], :r=
+oot a[href^=3D"http://c.ketads.com/"], :root a[href^=3D"http://6kup12tgxx.c=
+om/"], :root a[target=3D"_blank"][onmousedown=3D"this.href^=3D'http://paid.=
+outbrain.com/network/redir?"], :root a[href^=3D"https://www.passeura.com/"]=
+, :root a[href^=3D"http://www.pinkvisualpad.com/?revid=3D"], :root div[id^=
+=3D"ads300_100-widget"], :root a[href^=3D"https://www.brazzersnetwork.com/l=
+anding/"], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root [href=
+*=3D"//xml.revrtb.com/"], :root a[href^=3D"http://hd-plugins.com/download/"=
+], :root a[href^=3D"//voyeurhit.com/cs/"], :root a[href^=3D"http://www.afgr=
+3.com/"], :root [ad-id^=3D"googlead"], :root a[href^=3D"http://b.bestcomple=
+teusa.info/"], :root .trc_rbox_div .syndicatedItemUB, :root .ra[align=3D"le=
+ft"][width=3D"30%"], :root a[href^=3D"https://trackjs.com/?utm_source"], :r=
+oot afs-ad, :root a[href^=3D"http://adclick.g.doubleclick.net/"], :root #ma=
+in-content > [style=3D"padding:10px 0 0 0 !important;"], :root #center_col =
+> #resultStats + div[style=3D"border:1px solid #dedede;margin-bottom:11px;p=
+adding:5px 7px 5px 6px"], :root div[class^=3D"lifeOnwerAd"], :root a[href$=
+=3D"/vghd.shtml"], :root a[href^=3D"https://redirect.ero-advertising.com/"]=
+, :root a[href^=3D"http://easydownload4you.com/"], :root a[href^=3D"http://=
+ffxitrack.com/"], :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, =
+:root a[href*=3D".clksite.com/"], :root a[href^=3D"http://www.webtrackerplu=
+s.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root #center_col > #=
+taw > #tvcap > .cu-container > .commercial-unit-desktop-top, :root a[href^=
+=3D"http://centertrust.xyz/"], :root a[href^=3D"https://intrev.co/"], :root=
+ .vi-lb-placeholder[title=3D"ADVERTISEMENT"], :root a[href^=3D"http://goldm=
+oney.com/?gmrefcode=3D"], :root a[href^=3D"http://papi.mynativeplatform.com=
+:80/pub2/"], :root leaderboard-ad, :root #mn #center_col > div > h2.spon:fi=
+rst-child + ol:last-child, :root a[href^=3D"http://www.mrskin.com/tour"], :=
+root .jobs-information-call-to-action + .jobs-information-call-to-action di=
+v[class$=3D"_item"], :root .gbfwa > div[class$=3D"_item"], :root a[href^=3D=
+"https://www.incredimail.com/?id"], :root a[href^=3D"http://api.content.ad/=
+"], :root a[href^=3D"http://adtransfer.net/"], :root .commercial-unit-deskt=
+op-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk, :root a[href^=3D"http://www.un=
+iblue.com/cm/"], :root a[href^=3D"http://landingpagegenius.com/"], :root a[=
+data-redirect^=3D"http://click.plista.com/pets"], :root #rhs_block > script=
+ + .c._oc._Ve.rhsvw, :root #__mom_ad_12, :root .__zinit .__y_item, :root .c=
+h[onclick=3D"ga(this,event)"], :root .__ywl .__y_item, :root a[href^=3D"htt=
+p://track.trkvluum.com/"], :root a[href^=3D"http://linksnappy.com/?ref=3D"]=
+, :root [src^=3D"/Redirect.a2b?"], :root a[href^=3D"http://www.torntvdl.com=
+/"], :root #center_col > #resultStats + #tads, :root .__yinit .__y_item, :r=
+oot #center_col > div[style=3D"font-size:14px;margin-right:0;min-height:5px=
+"] > div[style=3D"font-size:14px;margin:0 4px;padding:1px 5px;background:#f=
+ff8e7"], :root a[href^=3D"http://track.affiliatenetwork.co.za/"], :root a[d=
+ata-redirect^=3D"http://paid.outbrain.com/network/redir?"], :root a[href^=
+=3D"https://secure.cbdpure.com/aff/"], :root amp-ad, :root iframe[src*=3D"m=
+ellowads.com"], :root .__y_inner > .__y_item, :root a[href^=3D"https://awec=
+rptjmp.com/"], :root a[href^=3D"http://server.cpmstar.com/click.aspx?poolid=
+=3D"], :root #cnt #center_col > #res > #topstuff > .ts, :root a[href^=3D"ht=
+tps://landing.brazzersnetwork.com/"], :root .rc-cta[data-target], :root a[h=
+ref*=3D"//promo-bc.com/track?"], :root a[href^=3D"http://www.firstclass-dow=
+nload.com/"], :root a[href*=3D".trust.zone"], :root a[href*=3D"googleme.eu"=
+], :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root div[class^=3D"AdEmbede=
+d__AddWrapper"], :root a[href^=3D"http://affiliates.score-affiliates.com/"]=
+, :root #rhswrapper > #rhssection[border=3D"0"][bgcolor=3D"#ffffff"], :root=
+ .Mpopup + #Mad > #MadZone, :root #center_col > #_Emc, :root #rhs_block .mo=
+d > .luhb-div > div[data-async-type=3D"updateHotelBookingModule"], :root di=
+v[class^=3D"advertisement-desktop"], :root a[href^=3D"http://ads2.williamhi=
+ll.com/redirect.aspx?"], :root a[href^=3D"https://www.spyoff.com/"], :root =
+ad-triple-box, :root a[href^=3D"http://www.menaon.com/installs/"], :root a[=
+href^=3D"http://taboola-"][href*=3D"/redirect.php?app.type=3D"], :root .mw =
+> #rcnt > #center_col > #taw > .c, :root #rhs_block > .ts[cellspacing=3D"0"=
+][cellpadding=3D"0"][style=3D"padding:0"], :root a[href^=3D"http://clickand=
+joinyourgirl.com/"], :root a[href^=3D"https://ad13.adfarm1.adition.com/"], =
+:root #header + #content > #left > #rlblock_left, :root a[href^=3D"http://w=
+ww.seekbang.com/cs/"], :root a[href^=3D"http://syndication.exoclick.com/"],=
+ :root a[href^=3D"http://bluehost.com/track/"], :root a[href^=3D"https://sq=
+uren.com/rotator/?atomid=3D"], :root .nrelate .nr_partner, :root a[href^=3D=
+"//medleyads.com/spot/"], :root a[href*=3D"mfroute.com/"], :root a[href^=3D=
+"//z6naousb.com/"], :root a[href^=3D"http://t.mdn2015x1.com/"], :root #rhs_=
+block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, =
+:root a[href^=3D"http://tezfiles.com/pr/"], :root a[href^=3D"http://t.wowtr=
+k.com/"], :root #center_col > #taw > #tvcap > .rscontainer, :root div[id^=
+=3D"drudge-column-ads-"], :root a[href^=3D"http://tour.mrskin.com/"], :root=
+ #main_col > #center_col div[style=3D"font-size:14px;margin:0 4px;padding:1=
+px 5px;background:#fff7ed"], :root a[href^=3D"http://webtrackerplus.com/"],=
+ :root div[itemtype=3D"http://schema.org/WPAdBlock"], :root a[href^=3D"http=
+s://www.nudeidols.com/cams/"], :root #center_col > #res > #topstuff + #sear=
+ch > div > #ires > #rso > #flun, :root a[href^=3D"http://www.sex.com/pics/?=
+utm_"], :root a[href^=3D"http://vo2.qrlsx.com/"], :root a[href^=3D"http://e=
+ngine.newsmaxfeednetwork.com/"], :root a[href^=3D"http://ad.yieldmanager.co=
+m/"], :root a[href^=3D"http://www.plus500.com/?id=3D"], :root #flowplayer >=
+ div[style=3D"z-index: 208; position: absolute; width: 300px; height: 275px=
+; left: 222.5px; top: 85px;"], :root a[href^=3D"http://n217adserv.com/"], :=
+root a[href^=3D"//4c7og3qcob.com/"] { display: none !important; }
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://linux-sunxi.org/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.vector&only=styles&skin=vector&*
+
+@charset "utf-8";
+
+@media print {
+  a.stub, a.new { color: rgb(186, 0, 0); text-decoration: none; }
+  #toc { border: 1px solid rgb(170, 170, 170); background-color: rgb(249, 2=
+49, 249); padding: 5px; }
+  div.floatright { float: right; clear: right; position: relative; margin: =
+0.5em 0px 0.8em 1.4em; }
+  div.floatright p { font-style: italic; }
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5=
+em 1.4em 0.8em 0px; }
+  div.floatleft p { font-style: italic; }
+  div.center { text-align: center; }
+  div.thumb { border: none; width: auto; margin-top: 0.5em; margin-bottom: =
+0.8em; background-color: transparent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); background-color: =
+white; font-size: 94%; text-align: center; overflow: hidden; padding: 3px !=
+important; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; =
+font-size: 94%; padding: 3px !important; }
+  div.magnify { display: none; }
+  div.tright { float: right; clear: right; margin: 0.5em 0px 0.8em 1.4em; }
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0px; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  table.rimage { float: right; width: 1pt; position: relative; margin-left:=
+ 1em; margin-bottom: 1em; text-align: center; }
+  body { background: white; color: black; margin: 0px; padding: 0px; }
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, #colophon, =
+.editsection, .toctoggle, .tochidden, div#f-poweredbyico, div#f-copyrightic=
+o, li#viewcount, li#about, li#disclaimer, li#mobileview, li#privacy, #foote=
+r-places, .mw-hidden-catlinks, tr.mw-metadata-show-hide-extended, span.mw-f=
+ilepage-other-resolutions, #filetoc { display: none; }
+  ul { list-style-type: square; }
+  #content { background: none; direction: ltr; border: none !important; pad=
+ding: 0px !important; margin: 0px !important; }
+  #footer { background: white; color: black; margin-top: 1em; border-top: 1=
+px solid rgb(170, 170, 170); direction: ltr; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+  p { margin: 1em 0px; line-height: 1.2em; }
+  pre, .mw-code { border: 1pt dashed black; white-space: pre; font-size: 8p=
+t; overflow: auto; padding: 1em 0px; background: white; color: black; }
+  table.listing, table.listing td { border: 1pt solid black; border-collaps=
+e: collapse; }
+  a { color: black !important; background: none !important; padding: 0px !i=
+mportant; }
+  a:link, a:visited { color: rgb(85, 34, 0); background: transparent; text-=
+decoration: underline; }
+  #content a.external.text::after, #content a.external.autonumber::after { =
+content: " (" attr(href) ") "; }
+  #globalWrapper { width: 100% !important; min-width: 0px !important; }
+  #content { background: white; color: black; }
+  #column-content { margin: 0px !important; }
+  #column-content #content { padding: 1em; margin: 0px !important; }
+  a, a.external, a.new, a.stub { color: black !important; text-decoration: =
+none !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  img { border: none; vertical-align: middle; }
+  span.texhtml { font-family: serif; }
+  #siteNotice { display: none; }
+  li.gallerybox { vertical-align: top; display: inline-block; }
+  ul.gallery, li.gallerybox { zoom: 1; }
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  li.gallerycaption { font-weight: bold; text-align: center; display: block=
+; overflow-wrap: break-word; }
+  li.gallerybox div.thumb { text-align: center; border: 1px solid rgb(204, =
+204, 204); margin: 2px; }
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; ove=
+rflow-wrap: break-word; }
+  table.diff { background: white; }
+  td.diff-otitle { background: rgb(255, 255, 255); }
+  td.diff-ntitle { background: rgb(255, 255, 255); }
+  td.diff-addedline { background: rgb(204, 255, 204); font-size: smaller; b=
+order: 2px solid black; }
+  td.diff-deletedline { background: rgb(255, 255, 170); font-size: smaller;=
+ border: 2px dotted black; }
+  td.diff-context { background: rgb(238, 238, 238); font-size: smaller; }
+  .diffchange { color: silver; font-weight: bold; text-decoration: underlin=
+e; }
+  table.wikitable, table.mw_metadata { margin: 1em 0px; border: 1px solid r=
+gb(170, 170, 170); background: white; border-collapse: collapse; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td=
+ { border: 1px solid rgb(170, 170, 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th=
+ { text-align: center; background: white; font-weight: bold; }
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  a.sortheader { margin: 0px 0.3em; }
+  .wikitable, .thumb, img { break-inside: avoid; }
+  h2, h3, h4, h5, h6, h7 { break-after: avoid; }
+  p { widows: 3; orphans: 3; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0px 0=
+.4em; border-left: 1px solid rgb(170, 170, 170); margin: 0.1em 0px; zoom: 1=
+; }
+  .catlinks li:first-child { padding-left: 0.2em; border-left: none; }
+}
+
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+  .sitedir-rtl textarea, .sitedir-rtl input { direction: rtl; }
+  input[type=3D"submit"], input[type=3D"button"], input[type=3D"reset"], in=
+put[type=3D"file"] { direction: ltr; }
+  textarea[dir=3D"ltr"], input[dir=3D"ltr"] { direction: ltr; }
+  textarea[dir=3D"rtl"], input[dir=3D"rtl"] { direction: rtl; }
+  abbr, acronym, .explain { border-bottom: 1px dotted; cursor: help; }
+  .mw-plusminus-pos { color: rgb(0, 100, 0); }
+  .mw-plusminus-neg { color: rgb(139, 0, 0); }
+  .mw-plusminus-null { color: rgb(170, 170, 170); }
+  .allpagesredirect, .redirect-in-category, .watchlistredir { font-style: i=
+talic; }
+  span.comment { font-style: italic; }
+  span.changedby { font-size: 95%; }
+  .texvc { direction: ltr; unicode-bidi: embed; }
+  img.tex { vertical-align: middle; }
+  span.texhtml { font-family: serif; }
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  #toolbar img { cursor: pointer; }
+  .mw-content-ltr .editsection, .mw-content-rtl .mw-content-ltr .editsectio=
+n { float: right; margin-left: 5px; }
+  .mw-content-rtl .editsection, .mw-content-ltr .mw-content-rtl .editsectio=
+n { float: left; margin-right: 5px; }
+  div.mw-filepage-resolutioninfo { font-size: smaller; }
+  h2#filehistory { clear: both; }
+  table.filehistory th, table.filehistory td { vertical-align: top; }
+  table.filehistory th { text-align: left; }
+  table.filehistory td.mw-imagepage-filesize, table.filehistory th.mw-image=
+page-filesize { white-space: nowrap; }
+  table.filehistory td.filehistory-selected { font-weight: bold; }
+  .filehistory a img, #file img:hover { background: url("data:image/png;bas=
+e64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGElEQVQYV2N4DwX/oYBhgAR=
+gDJjEAAkAAEC99wFuu0VFAAAAAElFTkSuQmCC") repeat white; }
+  li span.deleted, span.history-deleted { text-decoration: line-through; co=
+lor: rgb(136, 136, 136); font-style: italic; }
+  .not-patrolled { background-color: rgb(255, 255, 170); }
+  .unpatrolled { font-weight: bold; color: red; }
+  div.patrollink { font-size: 75%; text-align: right; }
+  td.mw-label { text-align: right; }
+  td.mw-input { text-align: left; }
+  td.mw-submit { text-align: left; }
+  td.mw-label { vertical-align: top; }
+  .prefsection td.mw-label { width: 20%; }
+  .prefsection table { width: 100%; }
+  td.mw-submit { white-space: nowrap; }
+  table.mw-htmlform-nolabel td.mw-label { width: 1px; }
+  tr.mw-htmlform-vertical-label td.mw-label { text-align: left !important; =
+}
+  .mw-htmlform-invalid-input td.mw-input input { border-color: red; }
+  .mw-htmlform-flatlist div.mw-htmlform-flatlist-item { display: inline; ma=
+rgin-right: 1em; white-space: nowrap; }
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-ltr .magnify { float: right; }
+  .mw-content-rtl .magnify { float: left; }
+  #catlinks { text-align: left; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; zoom:=
+ 1; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  .mw-hidden-cats-hidden { display: none; }
+  .catlinks-allhidden { display: none; }
+  p.mw-ipb-conveniencelinks, p.mw-protect-editreasons, p.mw-filedelete-edit=
+reasons, p.mw-delete-editreasons, p.mw-revdel-editreasons { font-size: 90%;=
+ text-align: right; }
+  .os-suggest { overflow: hidden auto; position: absolute; top: 0px; left: =
+0px; width: 0px; background-color: white; border-style: solid; border-color=
+: rgb(170, 170, 170); border-width: 1px; z-index: 99; font-size: 95%; }
+  table.os-suggest-results { font-size: 95%; cursor: pointer; border: 0px; =
+border-collapse: collapse; width: 100%; }
+  .os-suggest-result, .os-suggest-result-hl { white-space: nowrap; backgrou=
+nd-color: white; color: black; padding: 2px; }
+  .os-suggest-result-hl, .os-suggest-result-hl-webkit { background-color: r=
+gb(76, 89, 166); color: white; }
+  .os-suggest-toggle { position: relative; left: 1ex; font-size: 65%; }
+  .os-suggest-toggle-def { position: absolute; top: 0px; left: 0px; font-si=
+ze: 65%; visibility: hidden; }
+  .autocomment { color: gray; }
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  #pagehistory span.minor { font-weight: bold; }
+  #pagehistory li { border: 1px solid white; }
+  #pagehistory li.selected { background-color: rgb(249, 249, 249); border: =
+1px dashed rgb(170, 170, 170); }
+  .mw-history-revisiondelete-button, #mw-fileduplicatesearch-icon { float: =
+right; }
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  #shared-image-dup, #shared-image-conflict { font-style: italic; }
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border=
+: 2px solid rgb(47, 111, 171); clear: both; }
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hid=
+den; }
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-=
+align: center; }
+  a.feedlink { background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEU=
+gAAAAwAAAAMCAYAAABWdVznAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2AkOCjkSL9xYhAAA=
+Ac9JREFUKJE90LFrU1EYQPHzffe+l/iSVkXTmNiANBU7iE5OLrbSVYKIiy5dnARB3FwEB5dOOhQ=
+KuthJEEHRsUXBoosO0lKKEYRa29LWQk3S5L53r0PVv+D8OPJlolrrr1ZmI7F1BFEjqBXECGJAjS=
+BCaLddc7u5Mmb7q5U5007rWh5E9rYR/xsTBBXBWMVEglqRpGiGhcE5G6kdyugxcGsGyRdJ15ZwC=
+29IF55jNEWt8K+aFOMhc+dC7Z6SITjC7ga2MkI8cpH41Dhh7RPa20Gt4toZac+IqhFMTpG0hVt8=
+RetJg967SaTvGLnGNKZ0EtfOcB1P5jyqVjCRkIzfpnjtMYXrT2FrCff6JqhFRx/gnCXtZHgXUFH=
+QSGg/u4Gbf4T2lYkvTaFGce8fIgePY09fwXU8Pg3sk2JFu5v4lQ+4FxPge+j5u3Q+v8TvrBKfbZ=
+B1PT4LqJh9Uv7yFLmrM2i+gPs4jRyqIaUz7C2+xZZOEA4cJaSgaAhqhbC1DK0N3K9NusvzAHB4G=
+Lf+HQBJBsiCD7J6/9zXI2VbVyv/b6Sdv1e6nrTryboB7wVbyjXt1rcfo0Frs4UkqvtUJHMBjyVE=
+AcSjFiQJwRvf3F3/OfYH/dDFWrCooaIAAAAASUVORK5CYII=3D") left center no-repeat;=
+ padding-left: 16px; }
+  .plainlinks a { background: none !important; padding: 0px !important; }
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicod=
+e-bidi: embed; }
+  table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); =
+border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: bla=
+ck; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170,=
+ 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th { background-col=
+or: rgb(242, 242, 242); text-align: center; }
+  table.wikitable > caption { font-weight: bold; }
+  table.collapsed tr.collapsable { display: none; }
+  .success { color: green; font-size: larger; }
+  .warning { color: rgb(255, 165, 0); font-size: larger; }
+  .error { color: red; font-size: larger; }
+  .errorbox, .warningbox, .successbox { font-size: larger; border: 2px soli=
+d; padding: 0.5em 1em; float: left; margin-bottom: 2em; color: rgb(0, 0, 0)=
+; }
+  .errorbox { border-color: red; background-color: rgb(255, 242, 242); }
+  .warningbox { border-color: rgb(255, 140, 0); background-color: rgb(255, =
+255, 192); }
+  .successbox { border-color: green; background-color: rgb(221, 255, 221); =
+}
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; font-weigh=
+t: bold; display: inline; margin: 0px 0.5em 0px 0px; border: none; }
+  .mw-infobox { border: 2px solid rgb(255, 127, 0); margin: 0.5em; clear: l=
+eft; overflow: hidden; }
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  .previewnote { color: rgb(204, 0, 0); margin-bottom: 1em; }
+  .previewnote p { text-indent: 3em; margin: 0.8em 0px; }
+  .visualClear { clear: both; }
+  #mw_trackbacks { border: 1px solid rgb(187, 187, 255); background-color: =
+rgb(238, 238, 255); padding: 0.2em; }
+  .mw-datatable { border-collapse: collapse; }
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid rgb=
+(170, 170, 170); padding: 0px 0.15em; }
+  .mw-datatable th { background-color: rgb(221, 221, 255); }
+  .mw-datatable td { background-color: rgb(255, 255, 255); }
+  .mw-datatable tr:hover td { background-color: rgb(238, 238, 255); }
+  .TablePager { min-width: 80%; }
+  .TablePager_nav { margin: 0px auto; }
+  .TablePager_nav td { padding: 3px; text-align: center; }
+  .TablePager_nav a { text-decoration: none; }
+  .imagelist td, .imagelist th { white-space: nowrap; }
+  .imagelist .TablePager_col_links { background-color: rgb(238, 238, 255); =
+}
+  .imagelist .TablePager_col_img_description { white-space: normal; }
+  .imagelist th.TablePager_sort { background-color: rgb(204, 204, 255); }
+  ul#filetoc { text-align: center; border: 1px solid rgb(170, 170, 170); ba=
+ckground-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; margin-bo=
+ttom: 0.5em; margin-left: 0px; margin-right: 0px; }
+  #filetoc li { display: inline; list-style-type: none; padding-right: 2em;=
+ }
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: =
+0.5em; width: 400px; }
+  table.mw_metadata caption { font-weight: bold; }
+  table.mw_metadata th { font-weight: normal; }
+  table.mw_metadata td { padding: 0.1em; }
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: =
+1px solid rgb(170, 170, 170); padding-left: 5px; padding-right: 5px; }
+  table.mw_metadata th { background-color: rgb(249, 249, 249); }
+  table.mw_metadata td { background-color: rgb(252, 252, 252); }
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-styl=
+e-image: none; padding-right: 5px; padding-left: 5px; margin: 0px; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  li.gallerybox { vertical-align: top; display: inline-block; }
+  ul.gallery, li.gallerybox { zoom: 1; }
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  li.gallerycaption { font-weight: bold; text-align: center; display: block=
+; overflow-wrap: break-word; }
+  li.gallerybox div.thumb { text-align: center; border: 1px solid rgb(204, =
+204, 204); background-color: rgb(249, 249, 249); margin: 2px; }
+  li.gallerybox div.thumb img { display: block; margin: 0px auto; }
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; ove=
+rflow-wrap: break-word; }
+  .mw-ajax-loader { background-image: url("data:image/gif;base64,R0lGODlhIA=
+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"); background-position: c=
+enter center; background-repeat: no-repeat; padding: 16px; position: relati=
+ve; top: -16px; }
+  .mw-small-spinner { margin-right: 0.6em; background-image: url("data:imag=
+e/gif;base64,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3D=3D"); background-position: cente=
+r center; background-repeat: no-repeat; padding: 10px !important; }
+  h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lang(gu), h1:lang=
+(hi), h1:lang(kn), h1:lang(ml), h1:lang(mr), h1:lang(my), h1:lang(or), h1:l=
+ang(pa), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !import=
+ant; }
+  h2:lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(=
+bho), h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), =
+h3:lang(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn=
+), h4:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang=
+(gu), h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:l=
+ang(hi), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h=
+6:lang(kn), h2:lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml)=
+, h2:lang(mr), h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(=
+my), h3:lang(my), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(or), h3:la=
+ng(or), h4:lang(or), h5:lang(or), h6:lang(or), h2:lang(pa), h3:lang(pa), h4=
+:lang(pa), h5:lang(pa), h6:lang(pa), h2:lang(sa), h3:lang(sa), h4:lang(sa),=
+ h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:lang(ta), h4:lang(ta), h5:lang(t=
+a), h6:lang(ta), h2:lang(te), h3:lang(te), h4:lang(te), h5:lang(te), h6:lan=
+g(te) { line-height: 1.2em; }
+  ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lan=
+g(kk-arab) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(or) li { list-style-type: oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-con=
+tent-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: lef=
+t; }
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-con=
+tent-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: rig=
+ht; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .=
+mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { mar=
+gin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .=
+mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { mar=
+gin: 0px 2em 0px 0px; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { directio=
+n: ltr; }
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8p=
+x; padding: 0px 0px 0px 15px; background-image: url("data:image/gif;base64,=
+R0lGODlhCwALALMAAP///01NTZOTk1lZWefn57i4uJSUlPPz82VlZdDQ0HFxcaysrNvb28TExAA=
+AAAAAACH5BAAAAAAALAAAAAALAAsAAAQrUIRJqQQ455nNNBgHJANBDAwgZsVwqIG2IEQYYwXy2l=
+q/Kg3NqqeSVCqCCAA7"); background-position: left center; background-repeat: =
+no-repeat; cursor: pointer; font-size: 0.8em; text-decoration: underline; c=
+olor: rgb(6, 69, 173); }
+  .mw-help-field-hint:hover { background-image: url("data:image/gif;base64,=
+R0lGODlhCwALALMAAAtop+7z+GCWwpW51oStz8rb6yZzrafF3bnR5Nzn8QBcoD91oABQmf///wA=
+AAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSH=
+pyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4b=
+XB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMy=
+OjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTk=
+vMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bW=
+xuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9I=
+mh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnht=
+cD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudEl=
+EPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE5NkQ0QUQzRjI0NzRCNUQwIiB4bXBNTTpEb2N1bW=
+VudElEPSJ4bXAuZGlkOjJBN0FFQTQwQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXBNTTpJb=
+nN0YW5jZUlEPSJ4bXAuaWlkOjJBN0FFQTNGQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXA6=
+Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml=
+2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkM3RjExNzQwNzIwNjgxMTk1RkVBQ0=
+ZBOEQxNTU5MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTk2R=
+DRBRDNGMjQ3NEI1RDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l=
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eD=
+f3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqK=
+empaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb=
+25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3=
+NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAA=
+h+QQAAAAAACwAAAAACwALAAAEK3CxSalsOOeZxRQY1yBKkihFI2aDEqiMRgBJGGMD8NpavxoHza=
+qnklQqiwgAOw=3D=3D"); }
+  .mw-help-field-data { display: block; background-color: rgb(214, 243, 255=
+); padding: 5px 8px 4px; border: 1px solid rgb(93, 201, 244); margin-left: =
+20px; }
+  .tipsy { padding: 5px 5px 10px; font-size: 12px; position: absolute; z-in=
+dex: 100000; overflow: visible; }
+  .tipsy-inner { padding: 5px 8px 4px; background-color: rgb(214, 243, 255)=
+; color: black; border: 1px solid rgb(93, 201, 244); max-width: 300px; text=
+-align: left; }
+  .tipsy-arrow { position: absolute; background: url("data:image/gif;base64=
+,R0lGODlhDQANAMQAAPf399bz/9vu9m/O9NXy/8Pm9svp9pfd+YLW943X9LTn++z093XQ9WnM9O=
+Lw9p/c9YTU9InY9/T292DK9Jre+afj+rvq/Nzv9rjk9brl9cPt/ZLb+GbL9MLs/ZHb+KLh+iH5B=
+AAAAAAALAAAAAANAA0AAAVK4BGMZBkcg2WW1lBEKxkVAFTFFQQAwkSYhIlgB3hQTJQHEbBodEia=
+xmIJyHhIGwwVIGEoAgqGZAswIAIIA3mX+CTWOwfHAd9dtiEAOw=3D=3D") left top no-repe=
+at; width: 13px; height: 13px; }
+  .tipsy-se .tipsy-arrow { bottom: -2px; right: 10px; background-position: =
+0% 100%; }
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspre=
+view, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; =
+}
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  .diff-otitle, .diff-ntitle, .diff-lineno { unicode-bidi: embed; direction=
+: ltr !important; }
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { directio=
+n: ltr; display: inline; }
+  div.tright, div.floatright, table.floatright { clear: right; float: right=
+; }
+  div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+  div.floatright, table.floatright, div.floatleft, table.floatleft { positi=
+on: relative; }
+  #mw-credits a { unicode-bidi: embed; }
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0px; zoom: 1; }
+  .printfooter { display: none; }
+  .xdebug-error { position: absolute; z-index: 99; }
+  .editsection, .toctoggle { user-select: none; }
+}
+
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a.stub { color: rgb(119, 34, 51); }
+  a.new, #p-personal a.new { color: rgb(186, 0, 0); }
+  a.new:visited, #p-personal a.new:visited { color: rgb(165, 88, 88); }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.extiw:visited { color: rgb(102, 51, 102); }
+  .mw-body a.extiw:active { color: rgb(187, 102, 51); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  img { border: none; vertical-align: middle; }
+  hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 1=
+70, 170); border: 0px; margin: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none; font-weight: nor=
+mal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.1=
+7em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h1 .editsection { font-size: 53%; }
+  h2 { font-size: 150%; }
+  h2 .editsection { font-size: 67%; }
+  h3, h4, h5, h6 { border-bottom: none; font-weight: bold; }
+  h3 { font-size: 132%; }
+  h3 .editsection { font-size: 76%; font-weight: normal; }
+  h4 { font-size: 116%; }
+  h4 .editsection { font-size: 86%; font-weight: normal; }
+  h5 { font-size: 100%; }
+  h5 .editsection { font-weight: normal; }
+  h6 { font-size: 80%; }
+  h6 .editsection { font-size: 125%; font-weight: normal; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; line-height: 1.5em; }
+  p img { margin: 0px; }
+  ul { line-height: 1.5em; list-style-type: square; margin: 0.3em 0px 0px 1=
+.6em; padding: 0px; }
+  ol { line-height: 1.5em; margin: 0.3em 0px 0px 3.2em; padding: 0px; list-=
+style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { line-height: 1.5em; margin-left: 1.6em; margin-bottom: 0.1em; }
+  q { font-family: Times, "Times New Roman", serif; font-style: italic; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, Courier; }
+  code { background-color: rgb(249, 249, 249); }
+  pre, .mw-code { padding: 1em; border: 1px dashed rgb(47, 111, 171); color=
+: black; background-color: rgb(249, 249, 249); }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(47, 111, 171); margin: 1em 0px; padding:=
+ 0px 1em 1em; line-height: 1.5em; }
+  fieldset.nested { margin: 0px 0px 0.5em; padding: 0px 0.5em 0.5em; }
+  legend { padding: 0.5em; font-size: 95%; }
+  form { border: none; margin: 0px; }
+  textarea { width: 100%; padding: 0.1em; }
+  select { vertical-align: top; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  #toc, .toc, .mw-warning { border: 1px solid rgb(170, 170, 170); backgroun=
+d-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc h2, .toc h2 { display: inline; border: none; padding: 0px; font-size=
+: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-ali=
+gn: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-=
+left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  #toc .toctoggle, .toc .toctoggle { font-size: 94%; }
+  .toccolours { border: 1px solid rgb(170, 170, 170); background-color: rgb=
+(249, 249, 249); padding: 5px; font-size: 95%; }
+  .mw-warning { margin-left: 50px; margin-right: 50px; text-align: center; =
+}
+  div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0=
+px; }
+  div.floatright p { font-style: italic; }
+  div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; border: 0px=
+; }
+  div.floatleft p { font-style: italic; }
+  div.thumb { margin-bottom: 0.5em; width: auto; background-color: transpar=
+ent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); background-color: =
+rgb(249, 249, 249); font-size: 94%; text-align: center; overflow: hidden; p=
+adding: 3px !important; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; line-height: 1.4em; font-size: 94%; pa=
+dding: 3px !important; }
+  div.magnify { border: none !important; background: none !important; }
+  div.magnify a, div.magnify img { display: block; border: none !important;=
+ background: none !important; }
+  div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+  div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  #userlogin, #userloginForm { border: 1px solid rgb(204, 204, 204); paddin=
+g: 1.2em; margin: 0.5em; float: left; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .usermessage { background-color: rgb(255, 206, 123); border: 1px solid rg=
+b(255, 165, 0); color: black; font-weight: bold; margin: 2em 0px 1em; paddi=
+ng: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  .firstHeading, #firstHeading { margin-bottom: 0.1em; line-height: 1.2em; =
+padding-bottom: 0px; }
+  #siteSub { display: none; }
+  #jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(125, 125, 125); width: auto; }
+  span.subpages { display: block; }
+  html, body { height: 100%; margin: 0px; padding: 0px; font-family: sans-s=
+erif; font-size: 1em; }
+  body { background-color: rgb(243, 243, 243); background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVQIHW=
+P4BgAA+AD3KTtPjAAAAABJRU5ErkJggg=3D=3D"); }
+  div#content { margin-left: 10em; padding: 1em; background-image: url("dat=
+a:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI=
+HWNYfv0nAASgAnhGoPmuAAAAAElFTkSuQmCC"); background-position: left top; back=
+ground-repeat: repeat-y; background-color: white; color: black; direction: =
+ltr; }
+  #mw-page-base { height: 5em; background-color: white; background-image: u=
+rl("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAsCAIAAAArRUU2AAAAO=
+klEQVQIHQXBAQEAAAjDIFz/zhdsCyE0y4SQya2RCSGWaYQ2Hc3ahFiINTIh1ly3NRohEwuh0Vmm=
+ER5oBCM5OFSTKwAAAABJRU5ErkJggg=3D=3D"); background-position: left bottom; b=
+ackground-repeat: repeat-x; }
+  #mw-head-base { margin-top: -5em; margin-left: 10em; height: 5em; backgro=
+und-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAA=
+ACQd1PeAAAADElEQVQIHWNYfv0nAASgAnhGoPmuAAAAAElFTkSuQmCC"); background-posit=
+ion: left bottom; background-repeat: repeat-x; }
+  div#mw-head { position: absolute; top: 0px; right: 0px; width: 100%; }
+  div#mw-head h5 { margin: 0px; padding: 0px; }
+  div.emptyPortlet { display: none; }
+  #p-personal { position: absolute; top: 0.33em; right: 0.75em; }
+  #p-personal h5 { display: none; }
+  #p-personal ul { list-style: none; margin: 0px; padding-left: 10em; }
+  #p-personal li { line-height: 1.125em; float: left; }
+  #p-personal li { margin-left: 0.75em; margin-top: 0.5em; font-size: 0.75e=
+m; white-space: nowrap; }
+  #left-navigation { position: absolute; left: 10em; top: 2.5em; }
+  #right-navigation { float: right; margin-top: 2.5em; }
+  div.vectorTabs h5, div.vectorMenu h5 span { display: none; }
+  div.vectorTabs { float: left; height: 2.5em; }
+  div.vectorTabs { background-image: url("data:image/png;base64,iVBORw0KGgo=
+AAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR4XmVO0QqAQAwy//+P87QjGUf0IDo3ZZ=
+READ84eXkZ5YDBRQcFwpXv3kW1N4/GmZXe326/xnf9ya8zzy/NtusBX91B1f55qzcAAAAASUVOR=
+K5CYII=3D"); background-position: left bottom; background-repeat: no-repeat=
+; padding-left: 1px; }
+  div.vectorTabs ul { float: left; }
+  div.vectorTabs ul { height: 100%; list-style: none; margin: 0px; padding:=
+ 0px; }
+  div.vectorTabs ul li { float: left; }
+  div.vectorTabs ul li { line-height: 1.125em; display: inline-block; heigh=
+t: 100%; margin: 0px; padding: 0px; background-color: rgb(243, 243, 243); b=
+ackground-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAB=
+kCAIAAADITs03AAAAPElEQVR4XuWK2xEAIAzCsPvv5DSu0ahX3yv4wQVyGGCSvg2dnJvduT8sz/=
+IwKOIfjCi2z/76FhHeJcslVZQFLUC06LZ/AAAAAElFTkSuQmCC"); background-position: =
+left bottom; background-repeat: repeat-x; white-space: nowrap; }
+  div.vectorTabs ul > li { display: block; }
+  div.vectorTabs li.selected { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADUlEQVQIHWNoYBgWEACJ5TIB0K=
+9KcAAAAABJRU5ErkJggg=3D=3D"); }
+  div.vectorTabs li a { display: inline-block; height: 1.9em; padding-left:=
+ 0.5em; padding-right: 0.5em; color: rgb(6, 69, 173); cursor: pointer; font=
+-size: 0.8em; }
+  div.vectorTabs li > a { display: block; }
+  div.vectorTabs li.icon a { background-position: right bottom; background-=
+repeat: no-repeat; }
+  div.vectorTabs span a { display: inline-block; padding-top: 1.25em; }
+  div.vectorTabs span > a { float: left; display: block; }
+  div.vectorTabs span { display: inline-block; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR4Xm=
+VO0QqAQAwy//+P87QjGUf0IDo3ZZREAD84eXkZ5YDBRQcFwpXv3kW1N4/GmZXe326/xnf9ya8zz=
+y/NtusBX91B1f55qzcAAAAASUVORK5CYII=3D"); background-position: right bottom;=
+ background-repeat: no-repeat; }
+  div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  div.vectorTabs li.new a, div.vectorTabs li.new a:visited { color: rgb(165=
+, 88, 88); }
+  div.vectorMenu { direction: ltr; float: left; background-image: url("data=
+:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAQBAMAAADgw5IVAAAAD1BMVEXz+=
+fuamprd3d15eXmxsbG+1Cf6AAAAAXRSTlMAQObYZgAAACZJREFUCFtjYKAaYBI2NjYWgnIUjY0N=
+FRASMGGgBFwYKOEEZ5ILAABbAqkPJqHJAAAAAElFTkSuQmCC"); background-position: 10=
+0% 60%; background-repeat: no-repeat; cursor: pointer; }
+  div.vectorMenuFocus { background-image: url("data:image/png;base64,iVBORw=
+0KGgoAAAANSUhEUgAAABYAAAAQBAMAAADgw5IVAAAAD1BMVEWampqSkpKtra2/v7/j4+Mm0C2mA=
+AAAAXRSTlMAQObYZgAAACZJREFUCFtjYKAaYFEUFBRUgXKcBAWFHBASMGGgBFwYKGECZ5ILANu8=
+AllBO68YAAAAAElFTkSuQmCC"); background-position: 100% 60%; }
+  body.rtl div.vectorMenu { direction: rtl; }
+  div#mw-head div.vectorMenu h5 { float: left; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR4Xm=
+VO0QqAQAwy//+P87QjGUf0IDo3ZZREAD84eXkZ5YDBRQcFwpXv3kW1N4/GmZXe326/xnf9ya8zz=
+y/NtusBX91B1f55qzcAAAAASUVORK5CYII=3D"); background-repeat: no-repeat; }
+  div#mw-head div.vectorMenu h5 { background-position: left bottom; margin-=
+left: -1px; }
+  div#mw-head div.vectorMenu > h5 { background-image: none; }
+  div#mw-head div.vectorMenu h4 { display: inline-block; float: left; font-=
+size: 0.8em; padding-left: 0.5em; padding-top: 1.375em; font-weight: normal=
+; border: none; }
+  div.vectorMenu h5 a { display: inline-block; width: 24px; height: 2.5em; =
+text-decoration: none; background-image: url("data:image/png;base64,iVBORw0=
+KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR4XmVO0QqAQAwy//+P87QjGUf0ID=
+o3ZZREAD84eXkZ5YDBRQcFwpXv3kW1N4/GmZXe326/xnf9ya8zzy/NtusBX91B1f55qzcAAAAAS=
+UVORK5CYII=3D"); background-repeat: no-repeat; }
+  div.vectorMenu h5 a { background-position: right bottom; }
+  div.vectorMenu h5 > a { display: block; }
+  div.vectorMenu div.menu { position: relative; display: none; clear: both;=
+ text-align: left; }
+  body.rtl div.vectorMenu div.menu { margin-left: 24px; }
+  body.rtl div.vectorMenu > div.menu { margin-left: auto; }
+  div.vectorMenu:hover div.menu, div.vectorMenu div.menuForceShow { display=
+: block; }
+  div.vectorMenu ul { position: absolute; background-color: white; border-w=
+idth: 0px 1px 1px; border-style: solid; border-color: silver; border-image:=
+ initial; list-style: none none; padding: 0px; margin: 0px 0px 0px -1px; te=
+xt-align: left; }
+  div.vectorMenu li { padding: 0px; margin: 0px; text-align: left; line-hei=
+ght: 1em; }
+  div.vectorMenu li a { display: inline-block; padding: 0.5em; white-space:=
+ nowrap; color: rgb(6, 69, 173); cursor: pointer; font-size: 0.8em; }
+  div.vectorMenu li > a { display: block; }
+  div.vectorMenu li.selected a, div.vectorMenu li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  #p-search h5 { display: none; }
+  #p-search { float: left; }
+  #p-search { margin-right: 0.5em; margin-left: 0.5em; }
+  #p-search form, #p-search input { margin: 0.4em 0px 0px; }
+  div#simpleSearch { display: block; width: 14em; height: 1.4em; margin-top=
+: 0.65em; position: relative; min-height: 1px; border: 1px solid rgb(170, 1=
+70, 170); color: black; background-color: white; background-image: url("dat=
+a:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAAJUlEQVQI=
+HQXBsQEAAAjDoND/73UWdnerhmHVsDQZJrNWVg3Dqge6bgMe6bejNAAAAABJRU5ErkJggg=3D=
+=3D"); background-position: left top; background-repeat: repeat-x; }
+  div#simpleSearch label { font-size: 13px; top: 0.25em; direction: ltr; }
+  div#simpleSearch input { color: black; direction: ltr; }
+  div#simpleSearch input:focus { outline: none; }
+  div#simpleSearch input.placeholder { color: rgb(153, 153, 153); }
+  div#simpleSearch input::-webkit-input-placeholder { color: rgb(153, 153, =
+153); }
+  div#simpleSearch input#searchInput { position: absolute; top: 0px; left: =
+0px; width: 90%; margin: 0px; padding: 0.2em 0px 0.2em 0.2em; outline: none=
+; border: none; font-size: 13px; background-color: transparent; direction: =
+ltr; }
+  div#simpleSearch button#searchButton { position: absolute; width: 10%; ri=
+ght: 0px; top: 0px; padding: 0.3em 0.4em 0.2em 0px; margin: 0px; border: no=
+ne; cursor: pointer; background-color: transparent; background-image: none;=
+ }
+  div#simpleSearch button#searchButton img { border: none; margin: -3px 0px=
+ 0px; padding: 0px; }
+  div#simpleSearch button#searchButton > img { margin: 0px; }
+  div#mw-panel { position: absolute; top: 160px; padding-top: 1em; width: 1=
+0em; left: 0px; }
+  div#mw-panel div.portal { padding-bottom: 1.5em; direction: ltr; }
+  div#mw-panel div.portal h5 { font-weight: normal; color: rgb(68, 68, 68);=
+ padding: 0px 0.25em 0.25em 1.75em; cursor: default; border: none; font-siz=
+e: 0.75em; }
+  div#mw-panel div.portal div.body { margin: 0px 0px 0px 1.25em; padding-to=
+p: 0.5em; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhE=
+UgAAAIwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIp=
+H1Q2VBz7fGPS1dOGeAAAAAElFTkSuQmCC"); background-repeat: no-repeat; backgrou=
+nd-position: left top; }
+  div#mw-panel div.portal div.body ul { list-style: none none; padding: 0px=
+; margin: 0px; }
+  div#mw-panel div.portal div.body ul li { line-height: 1.125em; padding: 0=
+px 0px 0.5em; margin: 0px; font-size: 0.75em; overflow-wrap: break-word; }
+  div#mw-panel div.portal div.body ul li a { color: rgb(6, 69, 173); }
+  div#mw-panel div.portal div.body ul li a:visited { color: rgb(11, 0, 128)=
+; }
+  div#footer { margin-left: 10em; margin-top: 0px; padding: 0.75em; backgro=
+und-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAA=
+ACQd1PeAAAADElEQVQIHWNYfv0nAASgAnhGoPmuAAAAAElFTkSuQmCC"); background-posit=
+ion: left top; background-repeat: repeat-x; direction: ltr; }
+  div#footer ul { list-style: none none; margin: 0px; padding: 0px; }
+  div#footer ul li { margin: 0px; padding: 0.5em 0px; color: rgb(51, 51, 51=
+); font-size: 0.7em; }
+  div#footer #footer-icons { float: right; }
+  body.ltr div#footer #footer-places { float: left; }
+  div#footer #footer-info li { line-height: 1.4em; }
+  div#footer #footer-icons li { float: left; margin-left: 0.5em; line-heigh=
+t: 2em; text-align: right; }
+  div#footer #footer-places li { float: left; margin-right: 1em; line-heigh=
+t: 2em; }
+  #p-logo { position: absolute; top: -160px; left: 0px; width: 10em; height=
+: 160px; }
+  #p-logo a { display: block; width: 10em; height: 160px; background-repeat=
+: no-repeat; background-position: center center; text-decoration: none; }
+  #preftoc { width: 100%; float: left; clear: both; background-image: url("=
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAhCAMAAAAvZzGNAAAAYFBMV=
+EUAAAD+/v79/f38/Pzt7e36+vr4+Pj39/f19fXz8/Py8vLw8PD7+/vq6uro6Ojm5ubl5eXj4+Ph=
+4eHf39/d3d3b29vZ2dnY2NjW1tbU1NTT09PR0dHQ0NDPz8/Ozs7Nzc0koCh/AAAAAXRSTlMAQOb=
+YZgAAABtJREFUCFtjYmBiBENOpp9QFgT+ZGIAijEShgBszwJih9jAuAAAAABJRU5ErkJggg=3D=
+=3D"); background-position: left bottom; background-repeat: no-repeat; marg=
+in: 0px !important; padding: 0px !important; }
+  #preftoc li { float: left; margin: 0px; padding: 0px 1px 0px 0px; height:=
+ 2.25em; white-space: nowrap; list-style-type: none; list-style-image: none=
+; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEA=
+AAAhCAMAAAAvZzGNAAAAYFBMVEUAAAD+/v79/f38/Pzt7e36+vr4+Pj39/f19fXz8/Py8vLw8PD=
+7+/vq6uro6Ojm5ubl5eXj4+Ph4eHf39/d3d3b29vZ2dnY2NjW1tbU1NTT09PR0dHQ0NDPz8/Ozs=
+7Nzc0koCh/AAAAAXRSTlMAQObYZgAAABtJREFUCFtjYmBiBENOpp9QFgT+ZGIAijEShgBszwJih=
+9jAuAAAAABJRU5ErkJggg=3D=3D"); background-position: right bottom; backgroun=
+d-repeat: no-repeat; }
+  #preftoc li:first-child { margin-left: 1px; }
+  #preftoc a, #preftoc a:active { display: inline-block; position: relative=
+; color: rgb(6, 69, 173); padding: 0.5em; text-decoration: none; background=
+-image: none; font-size: 0.9em; }
+  #preftoc a:hover, #preftoc a:focus { text-decoration: underline; }
+  #preftoc li.selected a { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAAAEAAAAhCAQAAACysAk0AAAAHElEQVQIW2P6z8DE8J+JgQGKQFwMhC=
+aIn4shCAC27Qc86OAoxwAAAABJRU5ErkJggg=3D=3D"); background-position: center b=
+ottom; background-repeat: repeat-x; color: rgb(51, 51, 51); text-decoration=
+: none; }
+  #preferences { float: left; width: 100%; margin: -2px 0px 0px; clear: bot=
+h; border: 1px solid rgb(204, 204, 204); background-color: rgb(249, 249, 24=
+9); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA=
+EAAAABCAAAAAA6fptVAAAACklEQVQIHWP4BQAA/AD7oRDZ1QAAAABJRU5ErkJggg=3D=3D"); }
+  #preferences fieldset { border-right: none; border-bottom: none; border-l=
+eft: none; border-image: initial; border-top: 1px solid rgb(204, 204, 204);=
+ }
+  #preferences fieldset.prefsection { border: none; padding: 0px; margin: 1=
+em; }
+  #preferences legend { color: rgb(102, 102, 102); }
+  #preferences fieldset.prefsection legend.mainLegend { display: none; }
+  #preferences td { padding-left: 0.5em; padding-right: 0.5em; }
+  .htmlform-tip { font-size: x-small; padding: 0.2em 2em; color: rgb(102, 1=
+02, 102); }
+  #preferences div.mw-prefs-buttons { padding: 1em; }
+  #preferences div.mw-prefs-buttons input { margin-right: 0.25em; }
+  div#content { line-height: 1.5em; }
+  #bodyContent { font-size: 0.8em; }
+  .editsection { float: right; }
+  ul { list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA=
+AAAUAAAANAQMAAABb8jbLAAAABlBMVEX///8AUow5QSOjAAAAAXRSTlMAQObYZgAAABNJREFUCB=
+1jYEABBQw/wLCAgQEAGpIDyT0IVcsAAAAASUVORK5CYII=3D"); }
+  pre, .mw-code { line-height: 1.3em; }
+  #siteNotice { font-size: 0.8em; }
+  #firstHeading { margin-top: 0px; padding-top: 0px; font-size: 1.6em; }
+  div#content a.external, div#content a.external[href^=3D"gopher://"] { bac=
+kground: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAAC=
+NMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPI=
+OE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CY=
+II=3D") right center no-repeat; padding-right: 13px; }
+  div#content a.external[href^=3D"https://"], .link-https { background: url=
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdUl=
+EQVQYV2P4//8/Awxv3LThf0dXKxyD+DA5DEUg+tWrV2AaWTFcIboJyJrhCtGtRMcgebhpL2/4/v=
+//Lvn//x+7IRjIfn8v+P/t055gxZgKPzaC8Y/nMYQVLpnM8f/zo3AqKfzyOOL/h/sh/59c9sBUS=
+IyvAeRdJWjk4E//AAAAAElFTkSuQmCC") right center no-repeat; padding-right: 13=
+px; }
+  div#content a.external[href^=3D"mailto:"], .link-mailto { background: url=
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAMFB=
+MVEX///////+IioX29vbq6unJx8O9vbvl5ePZ2NX7+/iysrLp5+KjoZyop6Oxrqrx8O1Uz2ohAA=
+AAAXRSTlMAQObYZgAAAENJREFUCB1jYOBWKmBgYHASVGFgYFHsEXJgcJK4mqjCoL6oMM6JQXmxf=
+KsRg+J0HWMhBkWrydlAMtLYVYghSUlJSQ0ATXALyH6+YqgAAAAASUVORK5CYII=3D") right c=
+enter no-repeat; padding-right: 13px; }
+  div#content a.external[href^=3D"news:"] { background: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAe0lEQVR4Xo2QQQqAIBB=
+FPbDXCKJTGCTRIqJN7qL2gp5BcOEpJmZgAlEp4eHiP/8Min7o4A8kfpxclFJmpJRAKVWIGNQoRH=
+zNcBtSF6/7pDuEwDQbWaw20ijnPGGtffHOU0bitq9gzAExRmwqwGxeNAgAEJMeWx9Ne6PzAI3dP=
+ZAGO1zBAAAAAElFTkSuQmCC") right center no-repeat; padding-right: 13px; }
+  div#content a.external[href^=3D"ftp://"], .link-ftp { background: url("da=
+ta:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAATElEQVR=
+4XlXIQQrAIAwAwfzej/QtPqQUepBiqR68bWMghOzeRpCCf4DsDb26OfDk0quxo8KtN6AEGtEzNh=
+5eRsbOx2RlHCw9YxSYR34KRKBV5WnY6QAAAABJRU5ErkJggg=3D=3D") right center no-re=
+peat; padding-right: 13px; }
+  div#content a.external[href^=3D"irc://"], div#content a.external[href^=3D=
+"ircs://"], .link-irc { background: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdElEQVR4Xn3QTQqAIBAFYC8fRNeKAjdlxxD/wf3=
+UTGoo2sBbyPuQUbbtK8zLNAz2zzCG4GcQ11BKWUUp1YVYULTWlBDCEBIwxoC1dggxBJxz/R3FJf=
+Iho+rVnPMXok6woFMc4L2HGCOhAtt/a1GB6RYqRrkBKEFJ6m9q5RIAAAAASUVORK5CYII=3D") =
+right center no-repeat; padding-right: 13px; }
+  div#content a.external[href$=3D".ogg"], div#content a.external[href$=3D".=
+OGG"], div#content a.external[href$=3D".mid"], div#content a.external[href$=
+=3D".MID"], div#content a.external[href$=3D".midi"], div#content a.external=
+[href$=3D".MIDI"], div#content a.external[href$=3D".mp3"], div#content a.ex=
+ternal[href$=3D".MP3"], div#content a.external[href$=3D".wav"], div#content=
+ a.external[href$=3D".WAV"], div#content a.external[href$=3D".wma"], div#co=
+ntent a.external[href$=3D".WMA"], .link-audio { background: url("data:image=
+/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAMFBMVEX///91fyr=
+I0Xt5gzPCzGuyv0bw8eubomu3u5qQlWafo4HV25q3w1CLljOEjjKRlHTuBCtpAAAAAXRSTlMAQO=
+bYZgAAADdJREFUCFtjYGgUFBRnYBBSUlJkYDCCkIKCIFKAEUZmiohNdGRYs/XW6VgGkbhC1xcMj=
+B8Y5BMA6nkLTrUjfj0AAAAASUVORK5CYII=3D") right center no-repeat; padding-rig=
+ht: 13px; }
+  div#content a.external[href$=3D".ogm"], div#content a.external[href$=3D".=
+OGM"], div#content a.external[href$=3D".avi"], div#content a.external[href$=
+=3D".AVI"], div#content a.external[href$=3D".mpeg"], div#content a.external=
+[href$=3D".MPEG"], div#content a.external[href$=3D".mpg"], div#content a.ex=
+ternal[href$=3D".MPG"], .link-video { background: url("data:image/png;base6=
+4,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAAAAACoWZBhAAAAAnRSTlMA/1uRIrUAAABbSURBV=
+AgdBcGxCQBBCARAWxeMBUOb2NzI7EAQW3iuDoP7GXp7TMTOPlp4fV85lkbHOaN1yCrhyV5GchHd=
+wBWSy94duEJWEUjnMhodKCJ1aOHVXwmW3h4TsVT+AXinRvdYoWa2AAAAAElFTkSuQmCC") righ=
+t center no-repeat; padding-right: 13px; }
+  div#content a.external[href$=3D".pdf"], div#content a.external[href$=3D".=
+PDF"], div#content a.external[href*=3D".pdf#"], div#content a.external[href=
+*=3D".PDF#"], div#content a.external[href*=3D".pdf?"], div#content a.extern=
+al[href*=3D".PDF?"], .link-document { background: url("data:image/png;base6=
+4,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAATklEQVR4XmXKQQqAMAwF0X/7X=
+sSz9CSKiyIIFRFcjMmihmiGbB5fqDCaQJ4j46pzYLUWe+cXZ6OVBhTS0srY2Njp/+XxXXZOLu6E=
+UWAOPX1vnwTBe6qQAAAAAElFTkSuQmCC") right center no-repeat; padding-right: 1=
+3px; }
+  #pt-userpage, #pt-anonuserpage, #pt-login { background: url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAANCAMAAACn6Q83AAABMlBMVEUAAAAXMVgVL=
+1QAFSvHgRbLiRrOiBnZn0LIghW/gBDXli6/gBW/gBXhp03Zly6/gADXnT25dBfBfA7anT3fnDLG=
+gRf/AAC4hDDCijEvW5RZdZEoU5JEcqw/aaAoSog9Z53MZgA1XZM8ZZjHgxM7X5I0WIsyWIsZNVY=
+3W407ZJk7YpgzV4kbOmYWL1FfdIgrVpAVL1MwYJzpuGs0Z6cuXJSrq6g3bbK1sahMd6s4aKbnsV=
+zmrlbgmi02aak2a603bbGOqs6ovNTlr1syY6A3ZZ/uxorx0aEwXpkzZqVUfbBykbcyY6HenDPjo=
+z/hnTLhnjU0YJcxYZ01ZJ5NdKQvXpgtUX/fmCjgmSnjqU7ioTs8ZZk7ZZk6ZJk7ZJfqvHVPfbGu=
+hUHUljPTlTPswX6zhz/qvHQOItQnAAAAMXRSTlMAfIMMW04+1WIQ2Qww+dwEzQsl+P1DAd7gkvl=
+N9usttwWo1VLRwMU+2/3+3ktS8mVWPq+4awAAAIRJREFUCB0FwU0LAVEYhuHnft8zhzMWPtIkii=
+wtlLK2sfUD/PMxCSsp2QlZjI/rckndOma15FKsV8vT9ytTO9/6fpO1ZPp8MpaP9UBBkd37SYWCA=
+n0aHJq3IKdnPy8QI4az0uAMkzHAvcMxeM6tIL+4m6frOKXkUwtWkYBXGSWfY8bC9Qc4kh0uE5k1=
+8QAAAABJRU5ErkJggg=3D=3D") left top no-repeat; text-transform: none; paddin=
+g-left: 15px !important; }
+  .redirectText { font-size: 140%; }
+  .redirectMsg img { vertical-align: text-bottom; }
+  #bodyContent { position: relative; width: 100%; }
+  div#bodyContent { line-height: 1.5em; }
+  .skin-vector #mw-notification-area { top: 7em; font-size: 0.8em; }
+  .skin-vector .mw-notification { background-color: rgba(255, 255, 255, 0.9=
+3); padding: 0.75em 1.5em; border: 1px solid rgb(167, 215, 249); border-rad=
+ius: 0.75em; box-shadow: rgba(0, 0, 0, 0.125) 0px 2px 10px 0px; }
+  #ca-unwatch.icon a, #ca-watch.icon a { margin: 0px; padding: 3.1em 0px 0p=
+x; outline: none; display: block; width: 26px; height: 0px; overflow: hidde=
+n; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFg=
+AAAAQCAMAAAClQEgHAAADAFBMVEXz+fv///91w/+t3P/G0NOh2v/N2evy/v665f/O7P7O8f/C5f=
++FuuePtcGW1v+O0f6g1v/a1cvCsnHx45T5+vzKwq2+rGN5xP/f2s/6+vme1v+b1P+HzP+W0v9zw=
+f+Uv86+rXT+/uuFxPTEsmWi3f/Y8v+z3/+Y1//k1IuZ2v9xxP/JtmTo7POJw+664v/C7f+xx+F+=
+tuPj5ufq7e2Ktsbs8fl9zP/R3vDD6v/Ny4v1/v+Gy/+zz6utvcKJxPLU7v+Ou87Wz768zJShydq=
+Usrx3xf//+9WUyvS02Oqn3v+j3frZ6M3i9v/Nw3uw3f+98/+Erb7It4iSuuLbx2uIrbqCteJxw/=
+++5v+Lzv/K1NXt/P+9rWi/soaxqZDPzMZsvv/r6ufy8O319vdovf/+/f3x7+qt3/++tqTy8vDf2=
+czIslD29vWq2v/8/Pu+rnfBs4hnu/+Rz/9uwP/V0s3n03fo5uGk1//HwK7Pu2nk3tPRybb57ave=
+2tPDsnaDyf/5+Pb6//+ozt/J4czO2ark9Py7q3T9/f78/f2SwPCTwdC0xMfd+f+R0f+W0unFvmj=
+R3Oyc0PqyxdvO6fmt2u7b4OHn6+zP2dp2uvHV4vP58szv/P/DvXP//M+AzP/x5avC0pP2+fyNs8=
+J/u+zU3em5rW16tejU7e2q19bA5fnVxXl0wf++2bLbynx8tdHh5/H16ar///zP1NvOvGjAs4/l5=
+rnv//+erbHLvGj///l+uufCtI/09fb6+/vO3PC93c/a8fmv3P/z9ficyuWw3/+our3BrnOHt+KR=
+1/+24v3Numje2dDW7+THysv7/PySr7r68saSoqrp//+gyt/G5/zFtXCou9KHu+rw8/eW0Pp3w/+=
+/s2DHt2rBsW388bKTyO/29/fMuGh+rL/B0+rJ5NzS8f3//eTG6fmLs7/HztfT2avWxHOYrcLd2d=
+DP1deYu+D///q5zujMumrs7u7//Nzt6+jJ9P/7/P6a1//17bnNwm3t7OjAxca7ycz4+fmn2f/19=
+PM9fBugAAAAAXRSTlMAQObYZgAAAjxJREFUeF6101OMLEEYhuH+h8batm3b9h7btm3btm3btm3b=
+mJ6amu2a9En25nxXnTdP/tRNU9r92EyxrnYT9v70UjW9fEIQKzTs2JS1y5yvVMuf3ANn2VyHr2t=
+rsfV14ZtesPqNQtLnA/Rje1oNgJUtWHpJtktafTY/QpKj8zuDJp/OBuibz5v0i1D1um04A+Bg36=
+xRK6KHTH0tlfqKZbtCPuv57VllvosPIX9wWFL6+EpQTyhOT7KTY2XSdZn77FS6f1jj/vxdAe7+s=
+WljueFludy9ooyrsT5Dq3xOxLMsUS6X+2BAxIwbBVRgPDB2nodh3WPMXmSAu7ejUCx1bdlZpbKy=
+UkluC3T+7jk/0QFNVyjyvqn9jieRgBc/kdLNotcjnN94darqxpfjXH9b2rTrbctx3raa6U80Rr0=
+087rGnyoeiA5EBgdSzLWehrqD00eiHz6qsik3a9teGeBN+v6Wmj7K9DsK7/ejAw95FLE/Raj3MC=
+D7Pke+NadBnWtKgZ4f7UF3z2jsXy1FB6bHkLCnEeqpJmRfoLTmcFKWm7n56/nEWZxST9uUJdjHV=
+ALEXQCAZBJ2mQnQwwhga02yj8uIchtZ/iWKX6jnd4ceiU70CM3EPhlcgn9WFD+GeSRsA7e8El7a=
+G8FNshdK+PPvjylR+AXo+U8rnBKOD5qTt1Ab7tkNpztPvuoOAU3Xd6e7wcXmFkRf5POW7gLZFGP=
+Sb0HeUOuHVOCfE33gNTTH98z7MPvgMHwvbO4//f/bX94WpZENI84pAAAAAElFTkSuQmCC"); }
+  #ca-unwatch.icon a { background-position: -43px 60%; }
+  #ca-watch.icon a { background-position: 5px 60%; }
+  #ca-unwatch.icon a:hover, #ca-unwatch.icon a:focus { background-position:=
+ -67px 60%; }
+  #ca-watch.icon a:hover, #ca-watch.icon a:focus { background-position: -19=
+px 60%; }
+  #ca-unwatch.icon a.loading, #ca-watch.icon a.loading { background-image: =
+url("data:image/gif;base64,R0lGODlhEAAQAMQfANra2uLi4vDw8PLy8ujo6Ozs7NbW1vj4=
++Pb29s7Oztzc3NTU1O7u7uDg4NHR0erq6v39/d7e3vz8/Pv7+/7+/tPT09jY2Pr6+tnZ2efn5/X=
+19eXl5ebm5vT09P///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJAwAfACwAAAAAEAAQAAAFa+=
+Anjl9QkShacVqabp2XuKjjecHhStrjHDdIgtORiCyWSEZwud0mg0zEUhkYnNhsY/O5OCRZrEEwg=
+vzCkgqZhGiEB1wUgRGeAFKApqcjcJ5QCx4aFQEECX1/JAlJJBsVFRMkEBkXLhyVNJkhACH5BAkD=
+AB8ALAAAAAAQABAAAAV74CeO4hUQZEoGhqGqWzQtEnlYRCYMGSB5BkTKQCgUOBGPkjBIdQDKqBL=
+haJI4D6l0gylMRg6IVkmhNBIjxWBM8XAwHNFAIdYWDA0SRhNtKy0CJAUVEAcRAQJkFikZDg4EBB=
+0RDR4dGCkIEhAjFBsBDwovKo0BoioFQiMhACH5BAkDAB8ALAAAAAAQABAAAAWB4CeO5HeU33OVl=
+5IIpYEFh/QR1rYNZSMUAYVBwfBYbKRJwwPxFDxQjAbloECvHgMEBUBgPZTApjSxeL+eQGDUsQwk=
+aGhBcUBYinGI5GBIEBwEGhxwVwwLFgoRHQwECgIADRFXBgUfEygfEBEDTmuYIxAJFAYwnyMFABV=
+bpiMYGSghACH5BAkDAB8ALAAAAAAQABAAAAV+4CdKjWieKOJs6De1U5Zhg4YcmaG0kXcElQDtEW=
+kZPMgMBGlofQDIqK9pmhAADClSEDBtAICJROvR7EQGx5LsgQAOogKm0LhQ2IDRQRJRFKIHAh4XA=
+XknEw5REQsRBgAOEigRFBQEERofAgJiKBoZAgsXTicUDgYDoygNXU4hACH5BAUDAB8ALAAAAAAQ=
+ABAAAAV54Cd+EFBNY6p+hgCssOERGwSP3eZBgUIEG0xhdGFpPMjChjNoRD6XIGBDQVo9FIcogZn=
+srlbLQNRQfMEewVN0ERAaaE9AoDoECGj76lBBTxQwDlYBEQweGwwqEDIHCwIbBgAAFioUBgUOdC=
+IaBRwrBhUHNykQY6MfIQA7"); background-position: 5px 60%; }
+  #ca-unwatch.icon a span, #ca-watch.icon a span { display: none; }
+  div.vectorTabs ul { background-image: url("data:image/png;base64,iVBORw0K=
+GgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAARElEQVR4XmVO0QqAQAwy//+P87QjGUf0IDo=
+3ZZREAD84eXkZ5YDBRQcFwpXv3kW1N4/GmZXe326/xnf9ya8zzy/NtusBX91B1f55qzcAAAAASU=
+VORK5CYII=3D"); background-position: right bottom; background-repeat: no-re=
+peat; }
+  .tipsy { font-size: 0.8em; }
+  body.vector-animateLayout div#content, body.vector-animateLayout div#foot=
+er { transition: margin-left 250ms ease 0s, padding 250ms ease 0s; }
+  body.vector-animateLayout #p-logo, body.vector-animateLayout #left-naviga=
+tion { transition: left 250ms ease 0s; }
+  body.vector-animateLayout #mw-panel { transition: padding-left 250ms ease=
+ 0s; }
+  body.vector-animateLayout #p-search { transition: margin-right 250ms ease=
+ 0s; }
+  body.vector-animateLayout #p-personal { transition: right 250ms ease 0s; =
+}
+  body.vector-animateLayout #mw-head-base { transition: margin-left 250ms e=
+ase 0s; }
+}
+
+@media screen and (min-width: 982px) {
+  div#content { margin-left: 11em; padding: 1.25em 1.5em 1.5em; }
+  #p-logo { left: 0.5em; }
+  div#footer { margin-left: 11em; padding: 1.25em; }
+  #mw-panel { padding-left: 0.5em; }
+  #p-search { margin-right: 1em; }
+  #left-navigation { left: 11em; }
+  #p-personal { right: 1em; }
+  #mw-head-base { margin-left: 11em; }
+}
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://linux-sunxi.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+
+@charset "utf-8";
+
+.infobox { float: right; clear: right; margin-bottom: 0.5em; margin-left: 1=
+em; padding: 0.2em; border: 1px solid rgb(170, 170, 170); background: rgb(2=
+49, 249, 249); color: black; }
+
+.infobox td, .infobox th { vertical-align: top; }
+
+.infobox caption { margin-left: inherit; font-size: larger; }
+
+.infobox.bordered { border-collapse: collapse; }
+
+.infobox.bordered td, .infobox.bordered th { border: 1px solid rgb(170, 170=
+, 170); }
+
+.infobox.bordered .borderless td, .infobox.bordered .borderless th { border=
+: 0px; }
+
+body.page-Main_Page h1.firstHeading { display: none; }
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://linux-sunxi.org/images/f/f0/Sticky-note-pin.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAVVJREFUeNpi/P//PwMlgOXMZiYGRkZUQTE/BlugUD7Q6ImvNjEcxqUZ
+ZDcLlN0IxFowiY/CDAoqQakmd9bNlgdyH+DQfw2I61lApgCxjoZBcdCfP7/BMm/bnjAcbN3J8CY+
+xsRGXsSEj/sfqrNZWBluXOhdB2b/g8gx/vv3n+HXr19gDru5CIP8CmcG7nf/GfYe/cvg7fAbxQAm
+JhYGoD5GFAMYmViBEsxQBYxA/I+Bn+8vg6nOFyCbC8UAkFq4AX//QvUwsTEwM0OChJMThNlwhjxI
+LVAfE6oBzAgDCAGQWrgBf7C4gKABQLV/0F3ADDT1P5EGMGN1AYleQLjgD0QMFLLEGgBSC9QHMaCy
++z9DbQ4DGxOLIMN/RlbiDGDmYfj2/T9b8xSgAVdvMwidu8Jw/8vEEA5SMtGtBwz3QXpBiQEY6wy8
+DIh8QSwAef4zI6XZGSDAANYwcE3w6o0KAAAAAElFTkSuQmCC
+
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://linux-sunxi.org/images/c/c0/Exclamation.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAjBJREFUeNqkk0trE1EUx8/cO49OfGTSRNJMYsA0aVonoYh13YW71uJC
+KFQhKqibfgFLwYULsR/AhY+VG1d+C124kJiFIGipmoIZNUXtZDKTycz1njGpaRNU8MJv7txzzv/c
+5xEYY/A/TRQEAW5c5KwM+aKcR73/a5zvg84HT371wv07Apwuj0x+PZW/vArA4NO7x/f4+OGoIHLK
+AAiC/fBdHadSbCGZPTeTzC7OUElbQNvBOISMMnIqeqFSYs57mTkfZD1/qYS2f0rAZ5pVDmXnY/FS
+bn3jM6xvfAEtfjKnRDLz6BtK4PPPADi+ms6vGK71lti2DUintUVSJ84b6OvF7GlI4PNMPVgAZ49o
+xpyqRnXf+wGWZYX4ngWRiKYfPpqfw5hBjej7eweqCkSo6JOLhmd/hI7vQLVaBdM0YXt1FgK2CeJ4
+0fCbmxUWsGc8vh3egtcFQPhyLsQnzpQJcbVmuw5mawtqtRo0Gg3wJQeY7ALIrqZEM2WM7esIPkRO
+AgR5OZEpTTV3X4IXNEGiLnw1b4fItBNCBQuiqeQUA7qMGtSSLt8C38aVRLo47QVvVJFYoFAnJJG8
+FdIfI6rSVWMTx6ZRg1rS7UKeSspSMj2Wk+AbjPGZ+vTboA1JZbQcEcUl1Iq2zdZyxURBpruUMTzR
+38Vl79wM+9bO0/3vlwLVs+OF16/MNdFug/vi+Xadm+vDL/3uHyuR16Er4E3gKvEaOTLa/1LBuEQP
+F8hxfgowAINnMqTBUH7hAAAAAElFTkSuQmCC
+
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://linux-sunxi.org/images/c/c5/Logo-155x155.png
+
+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
+
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://linux-sunxi.org/skins/common/images/cc-by.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAMAAABUFvrSAAABblBMVEX///////////8AAABAQEAQ
+EBDf39/Q08/BxcDLzsrGysXO0c3Mz8vIzMfR1ND///9gYGDM0MyAgIBQUFAwMDCvta7v7++/v79w
+cHAoKSjT1tKfn5/Lz8q8wbsNDg23vLYpKSl5fHkbGxvEyMNDREMgICC9wryRk5HJzci5vrjDx8LJ
+zcnM0Mu1urSts6yxt7C4vbeyt7Gssquvr69QUVCTmJO6v7m0ubOwtq+2u7XPz8/S1dEODg7Axb/D
+yMOus63S1dLLz8u7wLo+Pz7FycSEhoS/w76RlJHP08+/xL6vtK7N0c18f3yyuLG5vrm0urPEx8PO
+0s7KzcnHy8fEycS+wr3AxL+zuLLQ1NCEhYS+w77R1NGJjIlwcm+8wLxdXl2eoJ2utK19f3yWmZax
+trDIzMjGysaPj4+fo57AxcC7wLvW1dWChYLN0cy9wr01NjW6v7qrsaqwta8yMzGvsq+ws6/Cx8K8
+wbzN0MzFycXhaneiAAAAA3RSTlMADgqEIABOAAACy0lEQVR4XrWV5Y/jQAzFe+cgQ5GZYZmZmZnh
+mBn/+/Oku1XTbhtdq32K5HyIfnp5Y3scT+BR5HAAlKP58Bk3JchFXtJ1KbQnC0luKbwVLR93f7vt
+6ur7+v9CMnKHMkcFIRcSWWUmEJg5Z8XZnFCYzAwRsvu2q68tsgOQ+za5z4vKaSoCqEhqUdkNyQfc
+JyRvjrinGy3HY4CKxVuD88iVS2w2AVUlllk9t8BltqLDvSMNlgf9AJTPRwH4B1uBw0dJWVcGkEdr
+htdraDSiB3Y+5g4mw/lRDKPO8psJcDIqinHCxGAL8Flhv0S4tOFRKwoi2r+jy4WluZ4yWraC/aAh
+FYB8CP4WYE7gWeS6GLUqjws9syGBy6DlF2uWLOLgfH8PVp0Qbw6eeilmkYt2reTl3VxydS663eue
+rgXHoMYBA7HmYCGkJIAeUy3y0JBQZgXud768ac0CKELUADRSKWgOltdPAQy1TkGARVEuHA5hFlaw
+jwABRaqvBbi4kgIag/A6KcqolNdIpiHF7pEshrvX2gPzSgQ0BAIR1W8Wjfxs5Dy0MPmuZ7vb3V4U
+0jgAWnRBmvGmgy5sj/500MxiRhK4MDYcghsOD8D28EoBAK+qmjlXi/kHAf1VIxjbTbW0W+fgxgHx
+mQNiH4VnLG1gFKTUR9F8pG0P7+7U7gpxE1H4xsMjZD+AS/O57JZQcWUAaLXabv2UWdQ0tlsxufql
+0m7trE15PYtZPDwgvw63Ro/J5LWz6P+aI83YjrS9GpfQzUNLKCvmppZw8MgSagsMGzx7jeSaNcSY
+a5P/AB0IwXApndQueo9BA3xWShvQKRie6SfXdVeT8ud5U0BlPsiLDRjJEntTe5lm2VJzLqiVB6st
+GC55UcneX//LishjDq0dm3B7MHz/EVpfUcYDgXGFFWd/zgPYOLYH32v+4oqXSiWJv7og2M4dP5Ic
+Tx+J+w+Cru2omf6OhAAAAABJRU5ErkJggg==
+
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://linux-sunxi.org/skins/common/images/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAANjElEQVR4Xu2ZeXBVVZ7HP3d5a17y
+sgcSEhISxCQINiCoiIoKbbt0K9qj7dCo1YujjY7d6Gjp6Exr6bTbjNNttwVqIbQiioIguAwow2KE
+kEACAVnyQvbtZXnv5e3v3nvmcatIUSyK4F8jn6pT9+R37jm/yvf93je/U5EAPB5PAfAScBlQwNlw
+jg5gK7CgtLS0Q2psbBwHVGUmcblcqKrKmXMOTdMIBoMMJAFmHBF4RVZW1q1utxvDMDh7ziHLMoFA
+gL6+vlVHBPaNHj3azffOOVpaWoKyEMKdVJwzRRgxjuLt/F+OYhiJH3wVCyFc6rBQQnAmdLUuISf/
+Dg7UvoSivUL2yF4GWheRIIu8olswETpICj9EZM6SrqZ1tDe9hCS6yc9WiAZbCPoeI2vkTLS4D82/
+dFjceLSXHxqyEIKzwWFvwqUuxKa9jzB0Aq1XEYvE6Wl9E29TOWHtEnydu2jZdRXRnleJBJo5Ha76
+r4+5Z9lWnl5Xz1FCcY1vIxhLcDKGjotHEzq+SJzHV9dwlC5/mNl//pQ739zM+zWtnC1CCNSjk9MV
+2jA0GFqB7P4FAKpjCFkWZGcKRFwH4UVVVLKtzzAQKSbk/YzM9BfJqYwz0O7HnvrkaeUqyU7l1dun
+c9PC9dQ09/H61oOg6FxTWkwkoTGlNJ3qZi9XluXzcV03U8rcrN7dimYYlGSlMqs8n0dW7uDBq8dT
+29JH51AQq5bCwz8p58OGJr5s7CGuGabwQojhD2dMMu+Pzx/FxgPdtPsD/Gr6eezt9LO7s5/fTB/3
+ncQFUM3JSTz4xnsXAjDr0vHcP/dS1n6xj4eeXscz919HY9MaFvx8AUPiVaT4JEhsREkYyNEYCSHj
+UgSxgESqqwNryrPoqqCnt5BNja/w5JxFLF56PaWjM/n7mmreXlvDjMmlPP/QzziW3e0DPPDeV9w0
+cTRv72jktiklXDwmm/ve2cb4EVms2OGnutVLtz9COKbzyZ4gjb1+ZpcXsPirRvpDUfLTnQQjCT6o
+a+bOaWV81NDKo6sDhOM6f7ltGgd6/Lywfs+wGFZFxuMN8IlooyQjDYussKGhh50dveYHJoQ4gwo+
+BZ9vO8QVk0t44JfTATjc0URvsItb5lQiScv46oNplE74LZlWG0ogiMOQsBkCCR0RA6wg6RLRhBPJ
+qqKFruTS89qZe9dK3PY83Kk/Zf4/Xs6fXtvAtvoTbWN0lounb5yE22HlgRXbsMoKFkUmrmv8uCKf
++e9VcW1FIZ80tHHfleebX2+X3YLbbuPiohGMSLMjIeGwqskh43ZaGT8yg7w0B9uae7CqMnZVRdPF
+sbZhVvBLt0xl3tJNPH/TVOa/s52xuWlcVpbHGWBW8EktwpViwyHbzLgW7+Wnkxfy4EYPFpYT8RYz
+anQG4Za9qDY/8ZiNxJDA0FLR0XG6YqS5EmjR5FA1DK9A5Q3ycl/mmokZdA4UMMbMB6nJPGku+wn5
+L8jPIM1uMeP3XVbBi1/Us6Ra5uqyQsrzU/nF1GKuHJtvije5MIu0klH8aWAXVU09lOSkMqkwmy+b
+eplWks2MMSP5qqnHrMi5U0tJsar887vb0YVBcbZrOHe6w2L68sOrqrl1QiklWS4kRWdqcfaZVK85
+pP3794vkndm84h1L3mWPMb3yfFYunAfA6s/q+PPC/+b1B1uwsoesFJVUETEroLY6HWtERREx9HAC
+MpLijIhSUDQA6TJDOiRUGz5xLxOuNVi9ZB6zZ5YBUH79M5QWZbP21Xv4JnRDmB6ZrGi+icFwjAyn
+7VvjgWgCp1VBleUT8ghAlSVCMY3HVtfyzM8m47KpfBdUVcXj8ZzagwUSIq6ZceHfSEnuE9w9x05O
+iYFdtZt+S8JgsCGV9FCcvj4f/TEHDosgI9KNL+EmK0chJTOG1WEhEb+Q9PSbufmGP6LYo8P5TrcP
+lyWGK/qbSHdYzXe+LZ5qU0+aV5YYjjutSlLcSaRYFXPvmXQR8ikXUcAeAyBh+xFtHVcz58qDOOyH
+iSkZhJRUIhEn/R0y4VicFtnJYL5Kp9tKh+ZC9YWRjliHpjAUdCJowt+9jlBUkEgofBs3/G0Dz63f
+w7G8uf0Q1/9tPe2+EKdLVVMvz362m6+7ffzhg+pTv9fYx4KVw+u8tuUQ79Z5TDsRAhZ8sINFWw6a
+ZzX1DfEvq2o4lreqPTz9Sf3J++CTDQkNRIo5t9jcWByzef6NSny910GvjjMSpa/fgrdTIxi3EkyR
+6IgOEbcbKE4ZS4pBJC5jd0KKbSbZYw8w5oJH+Z/VU9B0YziPieCE/NubvSyuOoQvHDNjyT0s3HyQ
+zY09DIZiw/sP9vjpHYqcsL+5f4i+YJSBUIwvPb1m9U8qzBpeH4rG8XiHhs/OdVv5sL51+KzFVY0s
+29Zszg/1Bvh0XzsTCzMoz3Ob525u7B7O5Q/HKc50UTky/QQdv/mqLGnD8X6vmw0NxTx+jxdZHsQI
+xijM1RlMtRMMyDgTNlK0KO6gTJYIEHWlYchxIhEVw7EOrXU8fZYVoOjYVHU4nzhF/vH56dgUhTUN
+rcydUkq1ZwCnTeHSMTlISPT5NOa9tYmeUAjdgLmTy1gwq5xARONXy7ZwsHcIp0UlM8VKXqrDFHqr
+p4c7ppSwqq6VJ9ftwqYq5LocaMLg5VsuYmx2OjUt/VwxNo+ooSX3mLqwqbGTCQWZKBJsO+zltsnF
+OG2mbXDP0hpmjM3FYhHs6ernpgmF3+EmF1EAMPQwBZmv8+lza7FIVQx1K4hBge50Mu4KA7cjSn44
+TJluJysWJ4qK6taRHTGCCUBWCcS92CJ38NQTaygv2spRhCZxMgwBcy4czUd7WgFYvqOZ6yoLzA5A
+kSUeWbODsTlutj10A6t+O5PFSfvY5unnqbUNaAmZ9fNns+yuy/EO6sR13bxENPcHaRsMJ/vrHTxz
+/RQ+f2A2t04cQ5XHa545c1yuOd/d5mPCKDdFWc7knhDbD/cz+/wCApEEjd4AsiThslpYUnXY7KVv
+n1bI4cEAnr7g8R586jYNpOGXpPAeFL2O19aMYd417UAORkoPYc2GvThC2awwmfuj9LcpBK0ymaMV
+SiYKtFQHbS0GJDRKShQ6wkt58s9vUXFBJSMKBCaKQHBi/lDM7HdZWt3I/i4/tR1efj97Op/v7zYt
+oaqli/K8DO5cusXsBASC9+o91HT08defX0KOy2aOf72hgndqDyMBKTaVjQe6uLAonRsn5gNw9/Ri
+3t55EH8kzrXlo5KVvRObReLS0SPoD8ZY29BG60CIf7suj4YuH6oiY1Ek9vf4eLpzFxvu/QmKBBLC
+7DyOaRrMccoKDkZ05NQQJq6ptEbvZsWWYqSMpaRnSPgGJWSHYl4k5AwYNUvFfdUoiq/OoLgiTsKm
+o6fYyau0YERstDSNRQtuALsVI+HiKLquE4kmOJ6EYZDvdjBtdC7z393BqCw7RZkpRDTNvHHZVIUZ
+ZbncdXEZv5xayu9nlvMPk4qJGzp9wRhH6Q9oCI7+0uCyqwxGohxLMKaR0A0qR7oJRjXer2vhkjHZ
+TCvJYVHVAZwWhXy30/Tqo63cCJeLSSPyePurNk7FsQKfYM4TxubQPRDnlaSf6bqBykXsqyulq/lx
+Nu0ZT2omSJKGKkeJYCdqsaGk5pN6QTpRp8AXEmBTCQWdFE+QGFf+Nfva0slTsklLc+AfivDX5NmK
+IjOmMOuE/MFogmhcZ87EIra19nBzZYkZ90diuO1W7qisZE1DCy6rSocvxKItHkoz05g3oYL5y2v5
+dF8HK2pbeXx1PYYQaIbBQDjKNeNGMhSEh1fuZPOhHn737nb2dvnMrz0ICtNTaeoPMDY3lYr85Nwb
+NP8eCCGIawaRhJZ86oDglTsmsWRvHR/v9CIbqrl2rBuYz927d4toNCr8fv9JR3Nb9/C8cf9K0dVS
+I3ZXvyG66ieK7l2jRP3WuaJzd4mItGeIfV8+JLrrzhOtm5zCszVd9O7LEV5PqWjc9RfR15gt2ve4
+xMG9nx9/9knHPUs2ik5vv+gf9Inf/X2TaO7ymvEHl20WDYe7hM/nF4++v1UUPfKWmPof74mPqlqG
+9z67ukaM/+NycfkLq8S/f7hNvPBxjdjpaRePvL/FXK/7uk/c+Lc1ovyJ5eL+tzYnxyZRfajNXFtd
+c0A89M6XR+Zmjl8v/kJsbDh8ZM18PrV6u9hzuFMseG+zGfukqlPcu3iLeP2LBvHcuh1HtTI1PaKt
+VF9fL8aNG0csFuN0adn7PLlFtzHY+iz5lQuJdEzEYvOiO3bTsfdWjJgH1Z7Abr2K/JJafJFFpGRe
+hL9nK2nZP0K15/D/HZvNxoEDB467yZ0mRRUPEw8fwJ7za8ye0p+OrA6QNTaLtPwbSYT+E13/DWk5
+F9M7eDMu5z8hq/vIKJg1nOuHgOnBZ/qfZKtzHBk5UwAIWysZ4lEAsgr+wMDgJeSUPYIvHiCr6Fb8
+oReJRbr4oZHUFqm2tlZUVFSQ9Ay+P85ht9vZt2/fcW3aOb53i1BjsZhf13X39+eN55AkybSHpLZB
+ORKJfNHb22uWtCzLnB3nSGpoatnT00NS2/XSmjVrKoAtZWVlmQUFBVitVs6cc8TjcTo6OmhsbBwA
+ZkgAy5cvLwBeBi4DRnA2nKMb2Ao8ePvtt3f8Hzi+11yfLqsyAAAAAElFTkSuQmCC
+
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://linux-sunxi.org/extensions/SyntaxHighlighter/styles/shCore.css
+
+@charset "utf-8";
+
+.syntaxhighlighter a, .syntaxhighlighter div, .syntaxhighlighter code, .syn=
+taxhighlighter table, .syntaxhighlighter table td, .syntaxhighlighter table=
+ tr, .syntaxhighlighter table tbody, .syntaxhighlighter table thead, .synta=
+xhighlighter table caption, .syntaxhighlighter textarea { border-radius: 0p=
+x !important; background: none !important; border: 0px !important; bottom: =
+auto !important; float: none !important; height: auto !important; left: aut=
+o !important; line-height: 1.1em !important; margin: 0px !important; outlin=
+e: 0px !important; overflow: visible !important; padding: 0px !important; p=
+osition: static !important; right: auto !important; text-align: left !impor=
+tant; top: auto !important; vertical-align: baseline !important; width: aut=
+o !important; box-sizing: content-box !important; font-family: Consolas, "B=
+itstream Vera Sans Mono", "Courier New", Courier, monospace !important; fon=
+t-weight: normal !important; font-style: normal !important; font-size: 1em =
+!important; min-height: auto !important; }
+
+.syntaxhighlighter { width: 100% !important; margin: 1em 0px !important; po=
+sition: relative !important; overflow: auto !important; font-size: 1em !imp=
+ortant; }
+
+.syntaxhighlighter.source { overflow: hidden !important; }
+
+.syntaxhighlighter .bold { font-weight: bold !important; }
+
+.syntaxhighlighter .italic { font-style: italic !important; }
+
+.syntaxhighlighter .line { white-space: pre !important; }
+
+.syntaxhighlighter table { width: 100% !important; }
+
+.syntaxhighlighter table caption { text-align: left !important; padding: 0.=
+5em 0px 0.5em 1em !important; }
+
+.syntaxhighlighter table td.code { width: 100% !important; }
+
+.syntaxhighlighter table td.code .container { position: relative !important=
+; }
+
+.syntaxhighlighter table td.code .container textarea { box-sizing: border-b=
+ox !important; position: absolute !important; left: 0px !important; top: 0p=
+x !important; width: 100% !important; height: 100% !important; border: none=
+ !important; background: white !important; padding-left: 1em !important; ov=
+erflow: hidden !important; white-space: pre !important; }
+
+.syntaxhighlighter table td.gutter .line { text-align: right !important; pa=
+dding: 0px 0.5em 0px 1em !important; }
+
+.syntaxhighlighter table td.code .line { padding: 0px 1em !important; }
+
+.syntaxhighlighter.nogutter td.code .container textarea, .syntaxhighlighter=
+.nogutter td.code .line { padding-left: 0em !important; }
+
+.syntaxhighlighter.show { display: block !important; }
+
+.syntaxhighlighter.collapsed table { display: none !important; }
+
+.syntaxhighlighter.collapsed .toolbar { padding: 0.1em 0.8em 0em !important=
+; font-size: 1em !important; position: static !important; width: auto !impo=
+rtant; height: auto !important; }
+
+.syntaxhighlighter.collapsed .toolbar span { display: inline !important; ma=
+rgin-right: 1em !important; }
+
+.syntaxhighlighter.collapsed .toolbar span a { padding: 0px !important; dis=
+play: none !important; }
+
+.syntaxhighlighter.collapsed .toolbar span a.expandSource { display: inline=
+ !important; }
+
+.syntaxhighlighter .toolbar { position: absolute !important; right: 1px !im=
+portant; top: 1px !important; width: 11px !important; height: 11px !importa=
+nt; font-size: 10px !important; z-index: 10 !important; }
+
+.syntaxhighlighter .toolbar span.title { display: inline !important; }
+
+.syntaxhighlighter .toolbar a { display: block !important; text-align: cent=
+er !important; text-decoration: none !important; padding-top: 1px !importan=
+t; }
+
+.syntaxhighlighter .toolbar a.expandSource { display: none !important; }
+
+.syntaxhighlighter.ie { font-size: 0.9em !important; padding: 1px 0px !impo=
+rtant; }
+
+.syntaxhighlighter.ie .toolbar { line-height: 8px !important; }
+
+.syntaxhighlighter.ie .toolbar a { padding-top: 0px !important; }
+
+.syntaxhighlighter.printing .line.alt1 .content, .syntaxhighlighter.printin=
+g .line.alt2 .content, .syntaxhighlighter.printing .line.highlighted .numbe=
+r, .syntaxhighlighter.printing .line.highlighted.alt1 .content, .syntaxhigh=
+lighter.printing .line.highlighted.alt2 .content { background: none !import=
+ant; }
+
+.syntaxhighlighter.printing .line .number { color: rgb(187, 187, 187) !impo=
+rtant; }
+
+.syntaxhighlighter.printing .line .content { color: black !important; }
+
+.syntaxhighlighter.printing .toolbar { display: none !important; }
+
+.syntaxhighlighter.printing a { text-decoration: none !important; }
+
+.syntaxhighlighter.printing .plain, .syntaxhighlighter.printing .plain a { =
+color: black !important; }
+
+.syntaxhighlighter.printing .comments, .syntaxhighlighter.printing .comment=
+s a { color: rgb(0, 130, 0) !important; }
+
+.syntaxhighlighter.printing .string, .syntaxhighlighter.printing .string a =
+{ color: blue !important; }
+
+.syntaxhighlighter.printing .keyword { color: rgb(0, 102, 153) !important; =
+font-weight: bold !important; }
+
+.syntaxhighlighter.printing .preprocessor { color: gray !important; }
+
+.syntaxhighlighter.printing .variable { color: rgb(170, 119, 0) !important;=
+ }
+
+.syntaxhighlighter.printing .value { color: rgb(0, 153, 0) !important; }
+
+.syntaxhighlighter.printing .functions { color: rgb(255, 20, 147) !importan=
+t; }
+
+.syntaxhighlighter.printing .constants { color: rgb(0, 102, 204) !important=
+; }
+
+.syntaxhighlighter.printing .script { font-weight: bold !important; }
+
+.syntaxhighlighter.printing .color1, .syntaxhighlighter.printing .color1 a =
+{ color: gray !important; }
+
+.syntaxhighlighter.printing .color2, .syntaxhighlighter.printing .color2 a =
+{ color: rgb(255, 20, 147) !important; }
+
+.syntaxhighlighter.printing .color3, .syntaxhighlighter.printing .color3 a =
+{ color: red !important; }
+
+.syntaxhighlighter.printing .break, .syntaxhighlighter.printing .break a { =
+color: black !important; }
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://linux-sunxi.org/extensions/SyntaxHighlighter/styles/shThemeDefault.css
+
+@charset "utf-8";
+
+.syntaxhighlighter { background-color: white !important; }
+
+.syntaxhighlighter .line.alt1 { background-color: white !important; }
+
+.syntaxhighlighter .line.alt2 { background-color: white !important; }
+
+.syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlig=
+hted.alt2 { background-color: rgb(224, 224, 224) !important; }
+
+.syntaxhighlighter .line.highlighted.number { color: black !important; }
+
+.syntaxhighlighter table caption { color: black !important; }
+
+.syntaxhighlighter .gutter { color: rgb(175, 175, 175) !important; }
+
+.syntaxhighlighter .gutter .line { border-right: 3px solid rgb(108, 226, 10=
+8) !important; }
+
+.syntaxhighlighter .gutter .line.highlighted { background-color: rgb(108, 2=
+26, 108) !important; color: white !important; }
+
+.syntaxhighlighter.printing .line .content { border: none !important; }
+
+.syntaxhighlighter.collapsed { overflow: visible !important; }
+
+.syntaxhighlighter.collapsed .toolbar { color: blue !important; background:=
+ white !important; border: 1px solid rgb(108, 226, 108) !important; }
+
+.syntaxhighlighter.collapsed .toolbar a { color: blue !important; }
+
+.syntaxhighlighter.collapsed .toolbar a:hover { color: red !important; }
+
+.syntaxhighlighter .toolbar { color: white !important; background: rgb(108,=
+ 226, 108) !important; border: none !important; }
+
+.syntaxhighlighter .toolbar a { color: white !important; }
+
+.syntaxhighlighter .toolbar a:hover { color: black !important; }
+
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a { color: black !impo=
+rtant; }
+
+.syntaxhighlighter .comments, .syntaxhighlighter .comments a { color: rgb(0=
+, 130, 0) !important; }
+
+.syntaxhighlighter .string, .syntaxhighlighter .string a { color: blue !imp=
+ortant; }
+
+.syntaxhighlighter .keyword { color: rgb(0, 102, 153) !important; }
+
+.syntaxhighlighter .preprocessor { color: gray !important; }
+
+.syntaxhighlighter .variable { color: rgb(170, 119, 0) !important; }
+
+.syntaxhighlighter .value { color: rgb(0, 153, 0) !important; }
+
+.syntaxhighlighter .functions { color: rgb(255, 20, 147) !important; }
+
+.syntaxhighlighter .constants { color: rgb(0, 102, 204) !important; }
+
+.syntaxhighlighter .script { font-weight: bold !important; color: rgb(0, 10=
+2, 153) !important; }
+
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a { color: gray !imp=
+ortant; }
+
+.syntaxhighlighter .color2, .syntaxhighlighter .color2 a { color: rgb(255, =
+20, 147) !important; }
+
+.syntaxhighlighter .color3, .syntaxhighlighter .color3 a { color: red !impo=
+rtant; }
+
+.syntaxhighlighter .keyword { font-weight: bold !important; }
+------MultipartBoundary--X2XO2B0YZwifOws5DqmzcoIyBHQhecAEa2O4vVtjpI------

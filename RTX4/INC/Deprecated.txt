@@ -1,0 +1,12 @@
+ The Keil RT-Agent is deprecated in MDK-ARM 4.60
+=================================================
+
+The RT-Agent component of Keil MDK-ARM is no longer
+actively maintained. The component is shipped "as is"
+an no updates or bug fixes will be provided.
+
+The files RT_Agent.c and RT_Agent.h in this folder are included
+for compatibility in this release but will be removed
+from the product in future releases.
+
+10.09.2012 
